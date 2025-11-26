@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    top: 0;
+}
+/* AREA NAVBAR */
+.navbar {
+    width: 100%;
+    background: #573A36;
+    
+}
+
+.navbar .navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px;
+}
+
+/* LOGO KIRI */
+.navbar .navbar-container .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;        /* jarak antar logo */
+}
+.navbar .navbar-container .navbar-left  img {
+    width: 50px;
+}
+
+.navbar .navbar-container .navbar-menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.navbar .navbar-container .navbar-menu li{
+    list-style: none;
+}
+.navbar .navbar-container .navbar-menu li a{
+    color: white;
+    text-decoration: none;
+}
