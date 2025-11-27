@@ -74,12 +74,14 @@ body {
 
 .banner-home .container-home .desc-main {
     text-align: center;
-    color: white;
+    color: #F7F3EE;
 }
 
 .banner-home .container-home .desc-main h1 {
     font-size: 3rem;
     font-weight: 800px;
+    font-weight: bold;
+    color: #F7F3EE;
 }
 
 .banner-home .container-home .btn-main .btn-main-coklat {
@@ -156,6 +158,8 @@ body {
 
 .kunjungi-home {
     background-color: #B38877;
+    height: 300px;
+    padding: 40px 60px;
 }
 
 .kunjungi-home .container-kunjungi {
@@ -180,11 +184,4 @@ body {
     color: #6A5050;
 
 }
-
-/* .banner-home .container-home .btn-main .btn-main-coklat{
-    padding: 10px;
-    border: 2px solid #000000;
-    margin: 10px 20px 10px 20px;
-
-} */
 

@@ -2,6 +2,7 @@
 *{
     margin: 0;
     top: 0;
+    font-family: "Poppins", sans-serif;
 }
 /* AREA NAVBAR */
 .navbar {
@@ -60,7 +61,7 @@
 }
 
 .footer .map-footer .container-footer h3{
-    
+
     font-size: 1rem;
     font-weight: bold;
 }
@@ -68,4 +69,12 @@
 .footer .map-footer .container-footer{
     font-size: 1rem;
     font-weight: 800px;
+}
+
+.copy .container-copy .bottom-footer{
+    font-size: 1rem;
+    font-weight: 800px;
+    text-align: center;
+    justify-content: center;
+    padding: 50px 60px;
 }
