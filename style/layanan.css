@@ -43,7 +43,7 @@
 
 /* start hero */
 main section .img-ft1 {
-    height: 600px;
+    height: 670px;
     width: 100%;
 }
 
@@ -58,6 +58,24 @@ main section .text-wrapper-2{
     color: rgb(255, 243, 220);
 }
 
+main section article .text-wrapper-3 {
+    position-area: absolute;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: #573A36;
+    padding-right: 500px;
+    margin-bottom: 20px;
+}
+
+main  section article .text-wrapper-4 {
+    position-area: absolute;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: orange;
+    margin-top: 50px;
+}
+
 main section .text-wrapper-5{
     position:absolute ;
     margin-left: 540px;
@@ -68,19 +86,12 @@ main section .text-wrapper-5{
 
 }
 
-main  section article .text-wrapper-4 {
-    position-area: absolute;
-    margin-left: 100px;
-    margin-top: 10px;
-    color: orange;
-}
-
-main section article .text-wrapper-3 {
-    position-area: absolute;
-    margin-left: 100px;
-    margin-top: 10px;
-    color: #573A36;
+main section .text-wrapper-6{
+    margin-left: 500px;
+    margin-top: 30px;
+    color: #ffffff;
     padding-right: 500px;
+    margin-bottom: 40px;
 }
 
 main section article .program-wisata {
@@ -92,7 +103,112 @@ main section article .program-wisata {
     margin-bottom: 50px;
 
 }
+
+main section .menampung-img{
+    background-color: #573A36;
+    height: 400px;
+
+}
+
+main section .menampung-button {
+    background-color:#682e18;
+    border-radius: 20px;
+    font-family: "Poppins";
+    padding: 15px;
+    padding-left:20px;
+    width: 180px;
+    margin-left: 80px;
+    margin-top: 1700px;
+    position: absolute;
+}
+
+main section div .Dokumentasi-1 {
+    position: absolute;
+    height: 250px;
+    margin-top: 1100px;
+    margin-left: 800px;
+    border-radius: 10px;
+    /* box-shadow = x,y,blur,spread, color */
+    box-shadow: 4px -5px 5px 10px #682e18;
+}
+
+main section .Dokumentasi-2 {
+    height: 250px;
+    margin-left: 150px;
+    border-radius: 10px;
+    box-shadow: 4px -5px 5px 10px #682e18;
+}
+
+section .text-wrapper-9 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 90px;
+    margin-left: 100px;
+    color: black;
+}
+
+section .mari-bergabung-dan {
+    margin-left: 50px;
+    margin-top: px;
+    border-radius: 20px;
+}
+
+.cta-section{
+    background-color: #ac5f41 ;
+    min-height: 400px;
+    width: 1200px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+.h1h1 h2{
+padding-top: 40px;
+margin-left: 50px;
+}
+
+
+.Menampung-info{
+    background-color: #c5b3a9;
+    width: 300px;
+    border-radius: 18px;
+    margin-left: 800px;
+}
+
+.whatsapp-2 {
+    height: 70px;
+}
+
+.instagram-3 {
+    height: 70px;
+}
+
+.icon-lokasi {
+    height: 60px;
+}
+
+section div .mari-bergabung-dan {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 30px;
+}
+
+section div .frame{
+    text-decoration: none;
+    color: #ffff;
+}
+
+section div .text-wrapper-8{
+    margin-top: 20px;
+    padding: 10px ;
+}
+
+
+
 /* end hero */
+
 
 
 /* Footer Syyle */
