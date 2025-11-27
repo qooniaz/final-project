@@ -2,6 +2,7 @@
 *{
     margin: 0;
     top: 0;
+    font-family: "Poppins", sans-serif;
 }
 /* AREA NAVBAR */
 .navbar {
@@ -38,6 +39,62 @@
     color: white;
     text-decoration: none;
 }
+/* end nav */
+
+/* start hero */
+main section .img-ft1 {
+    height: 600px;
+    width: 100%;
+}
+
+main section .text-wrapper-2{
+    position: absolute;
+    font-weight: bold;
+    stroke-width: 100px;
+    stroke: #53332f;
+    margin-left: 480px;
+    margin-top: 200px;
+    font-size: 80px;
+    color: rgb(255, 243, 220);
+}
+
+main section .text-wrapper-5{
+    position:absolute ;
+    margin-left: 540px;
+    margin-top: 300px;
+    color: white;
+    padding-right: 500px;
+    text-align: center;
+
+}
+
+main  section article .text-wrapper-4 {
+    position-area: absolute;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: orange;
+}
+
+main section article .text-wrapper-3 {
+    position-area: absolute;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: #573A36;
+    padding-right: 500px;
+}
+
+main section article .program-wisata {
+    position-area: absolute;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: #573A36;
+    padding-right: 500px;
+    margin-bottom: 50px;
+
+}
+/* end hero */
+
+
 /* Footer Syyle */
 
 .footer {
