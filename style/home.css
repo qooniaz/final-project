@@ -1,15 +1,17 @@
-*{
+* {
     margin: 0;
     top: 0;
+    font-family: "Poppins", sans-serif;
 }
+
 /* AREA NAVBAR */
 .navbar {
     width: 100%;
     background: #573A36;
-    
+
 }
 
-.navbar .navbar-container{
+.navbar .navbar-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,21 +22,25 @@
 .navbar .navbar-container .navbar-left {
     display: flex;
     align-items: center;
-    gap: 20px;        /* jarak antar logo */
+    gap: 20px;
+    /* jarak antar logo */
 }
-.navbar .navbar-container .navbar-left  img {
+
+.navbar .navbar-container .navbar-left img {
     width: 50px;
 }
 
-.navbar .navbar-container .navbar-menu{
+.navbar .navbar-container .navbar-menu {
     display: flex;
     justify-content: space-between;
     gap: 40px;
 }
-.navbar .navbar-container .navbar-menu li{
+
+.navbar .navbar-container .navbar-menu li {
     list-style: none;
 }
-.navbar .navbar-container .navbar-menu li a{
+
+.navbar .navbar-container .navbar-menu li a {
     color: white;
     text-decoration: none;
 }
@@ -46,92 +52,136 @@ body {
     background: #f7f3ef;
 }
 
-/* SECTION ABOUT */
-.about {
-    background: #ffffff;
-    padding: 80px 20px;
+
+.banner-home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(/gambar/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.banner-home .container-home {
     display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px 100px;
+    align-items: center;
     justify-content: center;
+    height: 100%;
 }
 
-.about-container {
-    max-width: 1100px;
+.banner-home .container-home .desc-main {
+    text-align: center;
+    color: #F7F3EE;
+}
+
+.banner-home .container-home .desc-main h1 {
+    font-size: 3rem;
+    font-weight: 800px;
+    font-weight: bold;
+    color: #F7F3EE;
+}
+
+.banner-home .container-home .btn-main .btn-main-coklat {
+    border-radius: 30px;
+    padding: 10px 30px;
+    background-color: #C47A63;
+    border: none;
+    color: #ffffff;
+    box-shadow: 4px 4px 6px #000000;
+}
+
+.banner-home .container-home .btn-main .btn-main-putih {
+    border-radius: 30px;
+    padding: 10px 30px;
+    background-color: rgba(199, 122, 99, 100, 0.7);
+    border: none;
+    color: #000000;
+}
+
+@media (max-width: 448px) {
+    .banner-home .container-home .btn-main {
+        display: flex;
+        gap: 10px;
+    }
+
+    .banner-home .container-home {
+        padding: 30px 60px;
+    }
+}
+
+.tentang-home {
+    background-color: #F7F3EE;
+}
+
+.tentang-home .container-tentang {
+    margin: 0;
+    padding: 40px 20px;
+    color: #553A2A;
     display: flex;
-    gap: 50px;
-    align-items: flex-start;
 }
 
-.about-container .text {
-    flex: 1;
+.tentang-home .tentang-beranda-left {
+    text-align: left;
+    padding: 40px 100px 40px 55px;
 }
 
-.about-container h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
-    color: #4a3f37;
+.tentang-home .tentang-beranda-left .btn-main-home {
+    padding: 10px;
+    border: 2px solid #000000;
+    margin: 10px;
 }
 
-.gallery {
-    width: 45%;
+.tentang-home .container-tentang .tentang-beranda-left .btn-main-coklat2 {
+    border-radius: 30px;
+    padding: 10px 30px;
+    background-color: #CE6060;
+    border: none;
+    color: #ffffff;
+    box-shadow: 4px 4px 6px gray;
+}
+
+.tentang-home .container-tentang .tentang-beranda-right {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
+    gap: 10px;
+    padding: 60px;
 }
 
-.gallery img {
-    width: 100%;
-    height: 50px;
-    border-radius: 10px;
+.tentang-home .container-tentang .tentang-beranda-right img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
 }
 
-/* BUTTON */
-.btn-primary {
-    background: #c46e5a;
-    color: #fff;
-    padding: 10px 22px;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
+.kunjungi-home {
+    background-color: #B38877;
+    height: 300px;
+    padding: 40px 60px;
 }
 
-.btn-primary:hover {
-    background: #b45f4d;
-}
-
-.btn-outline {
-    background: transparent;
-    color: #4a3f37;
-    padding: 10px 22px;
-    border: 2px solid #4a3f37;
-    border-radius: 25px;
-    cursor: pointer;
-}
-
-.btn-outline:hover {
-    background: #4a3f37;
-    color: #fff;
-}
-
-/* SECTION VISIT */
-.visit {
-    padding: 70px 20px;
+.kunjungi-home .container-kunjungi {
+    padding: 40px 20px;
     text-align: center;
-    background: #c7a293;
-    color: #fff;
 }
 
-.visit h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
+.kunjungi-home .container-kunjungi .desc-main-kunjungi .btn-main-coklat3 {
+    border-radius: 30px;
+    padding: 10px 30px;
+    background-color: #C47A63;
+    border: none;
+    color: #ffffff;
+    box-shadow: 4px 4px 6px #000000;
 }
 
-.visit p {
-    margin-bottom: 30px;
-    font-size: 14px;
+.kunjungi-home .container-kunjungi .desc-main-kunjungi .btn-main-putih2 {
+    border-radius: 30px;
+    padding: 10px 30px;
+    background-color: rgba(199, 122, 99, 100, 0.7);
+    border: none;
+    color: #6A5050;
+
 }
 
-.visit .buttons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}

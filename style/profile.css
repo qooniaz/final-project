@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f7f3ef;
+}
+
+.banner-profile {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(/gambar/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.banner-profile .container-profile{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 100px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.banner-profile .container-profile .desc-main-banner {
+    text-align: center;
+    color: #F4E9D8;
+    font-weight: bold;
+}
+
+.banner-profile .container-profile .desc-main-banner h1 {
+    font-size: 4rem;
+    font-weight: 800px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #F4E9D8;
+}
+
+.about-profile{
+    background-color: #F4E9D8;
+    padding: 40px 60px;
+    height: 300px;
+    color: #553A2A;
+}
+.about-profile .container-about .desc-main-about h2{
+    font-size: 2rem;
+    font-weight: 800px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.about-profile .container-about .desc-main-about p{
+    font-size: 1rem;
+    padding: 10px 60px;
+    text-align: justify;
+    gap: 10px;
+}
+
+.visimisi-profile {
+    background-color: #B38877;
+    padding: 40px 60px;
+}
+
+.visimisi-profile .container-visi-misi .visimisi-card{
+    display: flex;
+    gap: 30px;
+    height: 400px;
+    padding: 40px 40px;
+    align-items: center;
+    justify-content: center;
+    /* max-width: 100%; */
+}
+
+.visimisi-profile .container-visi-misi .visimisi-card .visi-main{
+    display: flex;
+    flex-direction: column;
+    background: #F7EFE8;         
+    width: 300px;
+    height: 400px;
+    padding: 35px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.visimisi-profile .container-visi-misi .visimisi-card .visi-main h3{
+    padding: 40px 0px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    width: 100%;
+    color: #553A2A;
+    text-align: center;
+    justify-content: baseline;
+}
+
+.visimisi-profile .container-visi-misi .visimisi-card .misi-main{
+    display: flex;
+    flex-direction: column;
+    background: #F7EFE8;         
+    width: 300px;
+    height: 400px;
+    padding: 35px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.visimisi-profile .container-visi-misi .visimisi-card .misi-main h3{
+    padding: 40px 0px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    width: 100%;
+    color: #553A2A;
+    text-align: center;
+    justify-content: baseline;
+}
+
+.produk-profile{
+    background-color: #F4E9D8;
+    padding: 40px 60px;
+    height: 300px;
+}
+
+.produk-profile .container-aneka {
+    text-align: center;
+    justify-content: center;
+    color: #553A2A;
+}
