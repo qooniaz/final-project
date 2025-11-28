@@ -38,7 +38,7 @@ body{
 }
 
 .about-profile{
-    background-color: #F4E9D8;
+    background-color: #F7F3EE;
     padding: 40px 60px;
     height: 300px;
     color: #553A2A;
@@ -75,7 +75,7 @@ body{
 .visimisi-profile .container-visi-misi .visimisi-card .visi-main{
     display: flex;
     flex-direction: column;
-    background: #F7EFE8;         
+    background: #F7F3EE;         
     width: 300px;
     height: 400px;
     padding: 35px 30px;
@@ -98,7 +98,7 @@ body{
 .visimisi-profile .container-visi-misi .visimisi-card .misi-main{
     display: flex;
     flex-direction: column;
-    background: #F7EFE8;         
+    background: #F7F3EE;         
     width: 300px;
     height: 400px;
     padding: 35px 30px;
@@ -119,7 +119,7 @@ body{
 }
 
 .produk-profile{
-    background-color: #F4E9D8;
+    background-color: #F7F3EE;
     padding: 40px 60px;
     height: 300px;
 }
@@ -128,4 +128,13 @@ body{
     text-align: center;
     justify-content: center;
     color: #553A2A;
+}
+
+.produk-profile .fotoroti-container .fotoroti-aneka1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 60px;
+    height: 80%;
+    width: 60%;
 }
