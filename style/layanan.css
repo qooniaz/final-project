@@ -206,7 +206,7 @@ section .mari-bergabung-dan {
 
     .text-wrapper-12 {
         margin-left: 80px;
-        margin: top     0px;;
+        margin: top     9px;
     }
 
     .instagram-3 {
@@ -214,8 +214,10 @@ section .mari-bergabung-dan {
         margin-left: 10px;
     }
 
-    .text-wrapper-13 {
+section div .text-wrapper-13 {
         max-width: 10px;
+        margin-left: 80px;
+        margin-bottom: 0px;
     }
 
     .icon-lokasi {
@@ -225,7 +227,7 @@ section .mari-bergabung-dan {
 
     .text-wrapper-14 {
         margin-left: 80px;
-        margin-top: 230px;
+        margin-top: 250px;
         position:absolute;
     }
 
