@@ -99,6 +99,7 @@ body {
     background-color: rgba(199, 122, 99, 100, 0.7);
     border: none;
     color: #000000;
+    box-shadow: 4px 4px 6px #000000;
 }
 
 @media (max-width: 448px) {
@@ -182,6 +183,5 @@ body {
     background-color: rgba(199, 122, 99, 100, 0.7);
     border: none;
     color: #6A5050;
-
 }
 
