@@ -1,16 +1,17 @@
 /* Nav Style */
-*{
+* {
     margin: 0;
     top: 0;
     font-family: "Poppins", sans-serif;
 }
+
 /* AREA NAVBAR */
 .navbar {
     width: 100%;
     background: #573A36;
 }
 
-.navbar .navbar-container{
+.navbar .navbar-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,29 +22,38 @@
 .navbar .navbar-container .navbar-left {
     display: flex;
     align-items: center;
-    gap: 20px;        /* jarak antar logo */
+    gap: 20px;
+    /* jarak antar logo */
 }
-.navbar .navbar-container .navbar-left  img {
+
+.navbar .navbar-container .navbar-left img {
     width: 50px;
 }
 
-.navbar .navbar-container .navbar-menu{
+.navbar .navbar-container .navbar-menu {
     display: flex;
     justify-content: space-between;
     gap: 40px;
 }
-.navbar .navbar-container .navbar-menu li{
+
+.navbar .navbar-container .navbar-menu li {
     list-style: none;
 }
-.navbar .navbar-container .navbar-menu li a{
+
+.navbar .navbar-container .navbar-menu li a {
     color: white;
     text-decoration: none;
 }
+
 /* end nav */
 
 /* start hero */
-main section .img-ft1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url();
+main section  .img-ft1 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+    ), 
+    url(../gambar/IMG_1798\ \(1\).JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,7 +61,7 @@ main section .img-ft1 {
     height: 600px;
 }
 
-main section .text-wrapper-2{
+main section .text-wrapper-2 {
     position: absolute;
     font-weight: bold;
     stroke-width: 100px;
@@ -60,6 +70,8 @@ main section .text-wrapper-2{
     margin-top: 200px;
     font-size: 80px;
     color: rgb(255, 243, 220);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.5);
 }
 
 main section article .text-wrapper-3 {
@@ -72,7 +84,7 @@ main section article .text-wrapper-3 {
     margin-bottom: 20px;
 }
 
-main  section article .text-wrapper-4 {
+main section article .text-wrapper-4 {
     position-area: absolute;
     margin-left: 100px;
     margin-top: 10px;
@@ -80,8 +92,8 @@ main  section article .text-wrapper-4 {
     margin-top: 50px;
 }
 
-main section .text-wrapper-5{
-    position:absolute ;
+main section .text-wrapper-5 {
+    position: absolute;
     margin-left: 540px;
     margin-top: 300px;
     color: white;
@@ -90,7 +102,7 @@ main section .text-wrapper-5{
 
 }
 
-main section .text-wrapper-6{
+main section .text-wrapper-6 {
     margin-left: 500px;
     margin-top: 60px;
     color: #ffffff;
@@ -106,13 +118,13 @@ main section article .program-wisata {
     color: #573A36;
     padding-right: 500px;
     margin-bottom: 50px;
-    
+
 }
 
-main section .menampung-img{
+main section .menampung-img {
     background-color: #573A36;
     height: 400px;
-    
+
 }
 
 
@@ -137,11 +149,11 @@ main section .Dokumentasi-2 {
 }
 
 main section .menampung-button {
-    background-color:#682e18;
+    background-color: #682e18;
     border-radius: 20px;
     font-family: "Poppins";
     padding: 15px;
-    padding-left:20px;
+    padding-left: 20px;
     width: 180px;
     margin-left: 80px;
     margin-top: 1700px;
@@ -157,79 +169,125 @@ section .text-wrapper-9 {
     color: black;
 }
 
-.menampung-p{
+.menampung-p {
     margin-left: 50px;
     margin-top: 20px;
 }
+
 /* 
 section .mari-bergabung-dan {
     } */
-    
-    .cta-section{
-        background-color: #ac5f41 ;
-        min-height: 400px;
-        width: 1200px;
-        margin: auto;
-        border-radius: 20px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        color: #ffffff;
-    }
-    
-    
-    .h1h1 h2{
-        padding-top: 40px;
-        margin-left: 50px;
-    }
-    
-    
-    .Menampung-info{
-        background-color: #d89774;
-        width: 300px;
-        position: absolute;
-        border-radius: 18px;
-        margin-left: 750px;
-        margin-top: 1490px;
-        margin-bottom: 90px;
-        padding-bottom: 20px;
-    }
-    
-    .text-wrapper-7 {
-        margin-top: 10px;
-        margin-left: 70px;
-    }
 
-    .whatsapp-2 {
-        height: 70px;
-        margin-left: 0%;
-    }
+.cta-section {
+    background-color: #ac5f41;
+    min-height: 400px;
+    width: 1200px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
 
-    .text-wrapper-12 {
-        margin-left: 80px;
-        margin: top     9px;
-    }
 
-    .instagram-3 {
-        height: 70px;
-        margin-left: 10px;
-    }
+.h1h1 h2 {
+    padding-top: 40px;
+    margin-left: 50px;
+}
+
+
+.Menampung-info {
+    background-color: #d89774;
+    width: 300px;
+    position: absolute;
+    border-radius: 18px;
+    margin-left: 750px;
+    margin-top: 1490px;
+    margin-bottom: 90px;
+    padding-bottom: 20px;
+}
+
+.text-wrapper-7 {
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.whatsapp-2 {
+    height: 70px;
+    margin-left: 0%;
+}
+
+.text-wrapper-12 {
+    margin-left: 80px;
+    margin: top 9px;
+}
+
+.instagram-3 {
+    height: 70px;
+    margin-left: 10px;
+}
 
 section div .text-wrapper-13 {
-        max-width: 10px;
-        margin-left: 80px;
-        margin-bottom: 0px;
-    }
+    max-width: 10px;
+    margin-left: 80px;
+    margin-bottom: 0px;
+}
 
-    .icon-lokasi {
-        height: 60px;
-        margin-left: 15px;
-    }
+.icon-lokasi {
+    height: 60px;
+    margin-left: 15px;
+}
 
-    .text-wrapper-14 {
-        margin-left: 80px;
-        margin-top: 250px;
-        position:absolute;
-    }
+.text-wrapper-14 {
+    margin-left: 80px;
+    margin-top: 250px;
+    position: absolute;
+}
+
+.card-kontak {
+    background-color: #d89774;
+    width: 300px;
+    padding: 20px;
+    border-radius: 18px;
+    position: absolute;
+    margin-left: 750px;
+    margin-top: 1490px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.judul-kontak {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item-kontak {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.ikon {
+    height: 45px;
+    margin-right: 15px;
+}
+
+.teks {
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+.lokasi .ikon {
+    height: 40px;
+    margin-left: 10px;
+}
+
+.alamat {
+    max-width: 200px;
+}
 
 
 
@@ -237,14 +295,14 @@ section div .text-wrapper-13 {
 
 
 
-section div .frame{
+section div .frame {
     text-decoration: none;
     color: #ffff;
 }
 
-section div .text-wrapper-8{
+section div .text-wrapper-8 {
     margin-top: 20px;
-    padding: 10px ;
+    padding: 10px;
 }
 
 
@@ -253,37 +311,37 @@ section div .text-wrapper-8{
 
 /* Footer Syyle */
 
-.footer{
+.footer {
     background-color: #6E4946;
     color: #ffff;
 }
 
-.footer .map-footer .container-footer{
+.footer .map-footer .container-footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     padding: 40px 60px;
 }
 
-.footer .map-footer .container-footer img{
+.footer .map-footer .container-footer img {
     width: 300px;
     height: 200px;
     padding: 40px 10px 20px 60px;
     border-radius: 15px;
 }
 
-.footer .map-footer .container-footer h3{
+.footer .map-footer .container-footer h3 {
     margin-bottom: 30px;
     font-size: 1rem;
     font-weight: bold;
 }
 
-.footer .map-footer .container-footer{
+.footer .map-footer .container-footer {
     font-size: 1rem;
     font-weight: 800px;
 }
 
-.copy .container-copy .bottom-footer{
+.copy .container-copy .bottom-footer {
     font-size: 1rem;
     font-weight: 800px;
     text-align: center;
