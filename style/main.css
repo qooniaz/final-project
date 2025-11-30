@@ -1,14 +1,19 @@
-/* Nav Style */
+body {
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+
 *{
     margin: 0;
     top: 0;
     font-family: "Poppins", sans-serif;
 }
+/* Nav Style */
 /* AREA NAVBAR */
 .navbar {
     width: 100%;
     background: hsl(7, 23%, 28%);
-
 }
 
 .navbar .navbar-container{
@@ -19,13 +24,16 @@
     width: 100%;
 }
 
+.navbar ul li a {
+    color: white;
+}
 /* LOGO KIRI */
 .navbar .navbar-container .navbar-left {
     display: flex;
-    align-items: center;
-    gap: 20px;        /* jarak antar logo */
+    align-items: start;
+    gap: 10px;        /* jarak antar logo */
 }
-.navbar .navbar-container .navbar-left  img {
+.navbar  .navbar-left  img {
     width: 50px;
 }
 
@@ -43,12 +51,18 @@
 }
 /* Footer Syyle */
 
-.footer{
+footer {
     background-color: #6E4946;
     color: #ffff;
+    height: 100%;
 }
 
-.footer .map-footer .container-footer{
+/* .footer{
+    background-color: #6E4946;
+    color: #ffff;
+} */
+
+/* .footer .map-footer .container-footer{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
@@ -90,4 +104,14 @@
         margin-top: 10px;
         margin-bottom: 30px;
         width: 80%;
+} 
+
+/* Responsive */
+/* @media (min-width: 800px) {
+  footer .map-footer .container-footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 40px 60px;
 }
+} */
