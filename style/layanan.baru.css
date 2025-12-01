@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f7f3ef;
+}
+
+.banner-profile {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(/gambar/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.banner-profile .container-profile{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 100px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.banner-profile .container-profile .desc-main-banner {
+    text-align: center;
+    color: #F4E9D8;
+    font-weight: bold;
+}
+
+.banner-profile .container-profile .desc-main-banner h1 {
+    font-size: 4rem;
+    font-weight: 800px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #F4E9D8;
+}
+
+.about-profile{
+    background-color: #F7F3EE;
+    padding: 40px 60px;
+    height: 450px;
+    color: #553A2A;
+}
+.about-profile .container-about .desc-main-about h2{
+    font-size: 2rem;
+    font-weight: 800px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+.about-profile .container-about .desc-main-about p{
+    font-size: 1rem;
+    padding: 10px 60px;
+    text-align: justify;
+    gap: 10px;
+}
+
+
+
+/* Variabel Warna (Opsional, untuk konsistensi) */
+:root {
+    --primary-bg-color: #a56a5c; /* Warna latar belakang utama (coklat tua) */
+    --contact-bg-color: #d8a89b; /* Warna latar belakang kotak kontak (coklat muda) */
+    --text-color: #ffffff; /* Warna teks utama */
+    --button-bg-color: #f7e8dc; /* Warna latar belakang tombol */
+    --button-text-color: #a56a5c; /* Warna teks tombol */
+    --border-color: #5bb2c7; /* Warna border biru muda */
+}
+
+/* Gaya Utama Bagian CTA */
+.education-cta-section {
+    /* Mengatur lebar, padding, dan warna latar belakang */
+    max-width: 1000px; /* Sesuaikan dengan kebutuhan layout Anda */
+    margin: 40px auto; /* Memberi jarak atas dan bawah */
+    background-color: var(--primary-bg-color);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    /* Border Biru Muda (seperti yang terlihat di gambar) */
+    border: 5px solid var(--border-color); 
+}
+
+/* Container untuk tata letak (menggunakan Flexbox) */
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px; /* Jarak antara konten kiri dan kanan */
+    color: var(--text-color);
+}
+
+
+
+/* Gaya Tombol */
+.cta-button {
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 15px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #fff;
+}
+
+/* Gaya Kotak Informasi Kontak (Konten Kanan) */
+.contact-info-box {
+    background-color: var(--contact-bg-color);
+    padding: 30px;
+    border-radius: 10px;
+    min-width: 300px; /* Lebar minimum kotak */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: var(--button-text-color); /* Menggunakan warna coklat tua untuk teks */
+}
+
+.contact-title {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Dokumentasi Section */
+/* Variabel Warna (Opsional) */
+:root {
+    --main-bg-color: #6a4c44; /* Warna latar belakang utama (coklat gelap) */
+    --image-border-color: #5bb2c7; /* Warna border biru muda */
+    --card-bg-color: #a56a5c; /* Warna latar belakang kartu/wadah gambar (coklat tua) */
+    --text-color: #ffffff;
+}
+
+/* Gaya Utama Bagian Dokumentasi */
+.documentation-section {
+    background-color: var(--main-bg-color);
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Gaya Judul Bagian */
+.section-title {
+    color: var(--text-color);
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+/* Wadah Galeri - Menggunakan Flexbox untuk dua kolom */
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px; /* Jarak antara dua gambar */
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Gaya Kartu Gambar (Wadah di sekitar gambar) */
+.image-card {
+    background-color: var(--card-bg-color); /* Latar belakang coklat yang lebih muda */
+    padding: 10px; /* Jarak antara gambar dan border kotak */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden; /* Memastikan gambar di dalamnya sesuai dengan border-radius */
+    flex: 1; /* Agar kedua kartu memiliki lebar yang sama */
+    max-width: 450px; /* Batasan lebar maksimum per kartu */
+}
+
+/* Border Biru Muda untuk Kartu Kanan (seperti di gambar) */
+.image-card-right {
+    border: 3px solid var(--image-border-color);
+}
+
+/* Gaya Elemen Gambar */
+.gallery-image {
+    width: 100%; /* Gambar mengisi seluruh lebar kartu */
+    height: auto;
+    display: block;
+    /* Memberikan sedikit border-radius pada gambar itu sendiri untuk tampilan yang lebih lembut */
+    border-radius: 5px; 
+}
+
+/* Media Query untuk Responsif (Penting!) */
+@media (max-width: 800px) {
+    .gallery-container {
+        flex-direction: column; /* Tumpuk gambar ke bawah pada layar kecil */
+        align-items: center;
+        padding: 20px 15px;
+    }
+    
+    .image-card {
+        max-width: 100%; /* Gambar mengambil lebar penuh */
+    }
+}
+
+
+
+
+/* CTA Section */
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+.contact-item .icon {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+/* Media Query untuk Responsif (Penting!) */
+@media (max-width: 768px) {
+    .cta-container {
+        flex-direction: column; /* Tumpuk konten ke bawah */
+        gap: 30px;
+    }
+
+    .cta-content {
+        max-width: 100%; /* Lebar penuh */
+        text-align: center; /* Rata tengah teks di tampilan kecil */
+    }
+
+    .contact-info-box {
+        min-width: unset;
+        width: 100%; /* Lebar penuh */
+    }
+
+    .cta-title {
+        font-size: 1.8em;
+    }
+}
+
+
+
+
