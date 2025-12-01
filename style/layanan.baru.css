@@ -43,6 +43,7 @@ body{
     height: 450px;
     color: #553A2A;
 }
+
 .about-profile .container-about .desc-main-about h2{
     font-size: 2rem;
     font-weight: 800px;
@@ -59,15 +60,13 @@ body{
 }
 
 
-
 /* Variabel Warna (Opsional, untuk konsistensi) */
 :root {
     --primary-bg-color: #a56a5c; /* Warna latar belakang utama (coklat tua) */
     --contact-bg-color: #d8a89b; /* Warna latar belakang kotak kontak (coklat muda) */
     --text-color: #ffffff; /* Warna teks utama */
-    --button-bg-color: #f7e8dc; /* Warna latar belakang tombol */
-    --button-text-color: #a56a5c; /* Warna teks tombol */
-    --border-color: #5bb2c7; /* Warna border biru muda */
+    --button-bg-color: #c6ab9a; /* Warna latar belakang tombol */
+    --button-text-color: #f6f6f6; /* Warna teks tombol */
 }
 
 /* Gaya Utama Bagian CTA */
@@ -78,9 +77,7 @@ body{
     background-color: var(--primary-bg-color);
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    /* Border Biru Muda (seperti yang terlihat di gambar) */
-    border: 5px solid var(--border-color); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 /* Container untuk tata letak (menggunakan Flexbox) */
@@ -98,17 +95,14 @@ body{
 .cta-button {
     background-color: var(--button-bg-color);
     color: var(--button-text-color);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
     border: none;
     padding: 12px 25px;
-    border-radius: 15px;
+    border-radius: 35px;
     font-size: 1em;
     font-weight: 600;
     cursor: pointer;
     transition: background-color 0.3s;
-}
-
-.cta-button:hover {
-    background-color: #fff;
 }
 
 /* Gaya Kotak Informasi Kontak (Konten Kanan) */
@@ -122,18 +116,17 @@ body{
 }
 
 .contact-title {
-    font-size: 1.3em;
-    font-weight: 600;
-    margin-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: 700px;
+    margin-bottom: 50px;
 }
 
 /* Dokumentasi Section */
 /* Variabel Warna (Opsional) */
 :root {
-    --main-bg-color: #6a4c44; /* Warna latar belakang utama (coklat gelap) */
-    --image-border-color: #5bb2c7; /* Warna border biru muda */
+    --main-bg-color: #b38877; /* Warna latar belakang utama (coklat gelap) */
     --card-bg-color: #a56a5c; /* Warna latar belakang kartu/wadah gambar (coklat tua) */
-    --text-color: #ffffff;
+    --text-color: #fffdfd;
 }
 
 /* Gaya Utama Bagian Dokumentasi */
@@ -145,7 +138,7 @@ body{
 
 /* Gaya Judul Bagian */
 .section-title {
-    color: var(--text-color);
+    color: #553A2A;
     font-size: 1.8em;
     font-weight: 600;
     margin-bottom: 30px;
