@@ -5,8 +5,8 @@
         }
 
         /* Warna Navbar*/
-        .bg-brand-dark { background-color: #4D312E !important; }
-        .text-brand-dark { color: #4D312E !important; }
+        .bg-brand-dark { background-color: #583B37 !important; }
+        .text-brand-dark { color: #583B37 !important; }
         .bg-brand-accent { background-color: #8D6E63 !important; }
         .bg-card-beige { background-color: #F5E6D3; }
 
@@ -22,6 +22,16 @@
             justify-content: center;
         }
 
+        .navbar-brand {
+            gap: 4px;   
+        }
+
+        .navbar {
+            padding: 10px 60px;
+            width: 100%;
+            height: 81px;
+        }
+
         .nav-link {
             color: white;
         }
@@ -31,19 +41,25 @@
         /* Hero Section */
         .hero-section {
             margin-top: 70px; /* Offset for fixed navbar */
-            height: 350px;
+            height: 600px;
             position: relative;
             background-image: url('../gambar/banner.jpg');
             background-size: cover;
             background-position: center;
         }
         .hero-overlay {
-            background: rgba(0, 0, 0, 0.4);
-            position: absolute;
-            top: 0; left: 0; right: 0; bottom: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+           display: flex;
+         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(/gambar/banner.jpg);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+        width: 100%;
+        height: 600px;
+        flex-direction: column;
+        gap: 40px;
+        padding: 30px 100px;
+        align-items: center;
+        justify-content: center;
         }
 
         .selection-section {
@@ -51,9 +67,25 @@
         }
 
         /*Button*/
+        .btn-signature {
+            background-color: #8D6E63;
+            color: white;
+            width: 228px;
+            height: 57px;
+            border: none;
+            padding: 10px 30px;
+            margin: 0 10px;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .btn-signature:hover {
+            background-color: #4D312E;
+            color: white;
+        }
         .btn-roti {
             flex-wrap: wrap;
-            background-color: #4D312E;
+            background-color: #8D6E63;
             color: white;
             width: 228px;
             height: 57px;
@@ -65,12 +97,12 @@
             transition: background-color 0.3s, color 0.3s;
         }
         .btn-roti:hover {
-            background-color: #8D6E63;
+            background-color: #4D312E;
             color: white;
         }
 
         .btn-kopi {
-            background-color: #8D6E63;
+            background-color: #4D312E;
             color: white;
             width: 228px;
             height: 57px;
@@ -83,7 +115,7 @@
         }
 
         .btn-kopi:hover {
-            background-color: #4D312E;
+            background-color: #8D6E63;
             color: white;
         }
     
