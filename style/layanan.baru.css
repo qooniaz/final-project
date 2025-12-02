@@ -69,41 +69,6 @@ body{
     --button-text-color: #f6f6f6; /* Warna teks tombol */
 }
 
-/* Gaya Utama Bagian CTA */
-.education-cta-section {
-    /* Mengatur lebar, padding, dan warna latar belakang */
-    max-width: 1000px; /* Sesuaikan dengan kebutuhan layout Anda */
-    margin: 40px auto; /* Memberi jarak atas dan bawah */
-    background-color: var(--primary-bg-color);
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-}
-
-/* Container untuk tata letak (menggunakan Flexbox) */
-.cta-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 40px; /* Jarak antara konten kiri dan kanan */
-    color: var(--text-color);
-}
-
-
-
-/* Gaya Tombol */
-.cta-button {
-    background-color: var(--button-bg-color);
-    color: var(--button-text-color);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
-    border: none;
-    padding: 12px 25px;
-    border-radius: 35px;
-    font-size: 1em;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
 
 /* Gaya Kotak Informasi Kontak (Konten Kanan) */
 .contact-info-box {
@@ -192,7 +157,7 @@ body{
         max-width: 100%; /* Gambar mengambil lebar penuh */
     }
 }
-
+/* end Dokumentasi Section */
 
 
 
@@ -216,22 +181,54 @@ body{
         flex-direction: column; /* Tumpuk konten ke bawah */
         gap: 30px;
     }
-
+    
     .cta-content {
         max-width: 100%; /* Lebar penuh */
         text-align: center; /* Rata tengah teks di tampilan kecil */
     }
-
+    
     .contact-info-box {
         min-width: unset;
         width: 100%; /* Lebar penuh */
     }
-
+    
     .cta-title {
         font-size: 1.8em;
     }
 }
 
 
+/* Gaya Tombol */
+.cta-button {
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 35px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
 
+/* Gaya Utama Bagian CTA */
+.education-cta-section {
+    /* Mengatur lebar, padding, dan warna latar belakang */
+    max-width: 1000px; /* Sesuaikan dengan kebutuhan layout Anda */
+    margin: 40px auto; /* Memberi jarak atas dan bawah */
+    background-color: var(--primary-bg-color);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
 
+/* Container untuk tata letak (menggunakan Flexbox) */
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px; /* Jarak antara konten kiri dan kanan */
+    color: var(--text-color);
+}
+ /* end CTA Section */
