@@ -57,10 +57,10 @@ footer {
     height: 90%;
 }
 
-.py-2{
+/* .py-2{
     display: flex;
     grid-template-columns: repeat(4, 1fr);
-}
+} */
 
 .desc-main-footer img{
     width: 300px;
