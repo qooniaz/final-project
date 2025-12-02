@@ -1,200 +1,213 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/style/main.css">
-  <link rel="stylesheet" href="/style/home.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <title>Home</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tefa Barkery and Coffe Katalog Roti</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome untuk Ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style/catalogRoti.css">
 </head>
-
-
 <body>
-    <header>
-        <!-- Nav section-->
-    <div class="navbar-left">
-            <img src="" alt="Logo 1">
-            <img src="/mnt/data/logo_polije-removebg-preview.png" alt="Logo Polije">
-            <img src=""  alt="Logo 3">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-brand-dark fixed-top shadow-sm py-3">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center ms-2">
+          <img src="gambar/tefa.png" width="50" height="50">
+          <img src="gambar/logo polije.png" width="50" height="50">
+          <img src="gambar/logo sip.png" width="50" height="50">
+        </a>
+
+        <!-- Toggle Button for Mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse justify-content-left" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Katalog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Layanan</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Galeri</a></li>
+            </ul>
         </div>
-        
-        <ul class="navbar-menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Katalog</a></li>
-            <li><a href="#">Layanan</a></li>
-            <li><a href="#">Galeri</a></li>
-        </ul>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero-section">
+        <div class="hero-overlay">
+            <h1 class="display-4 fw-bold text-white text-shadow">KATALOG ROTI</h1>
+        </div>
     </header>
 
-
-    <main>
-        <!-- Content section-->
-          <section class="banner-katalog">
-            <div>
-                <h1 class="title-katalog">KATALOG ROTI</h1>
-            </div>
-         </section>
-         <section class="panel-katalog-left">
-            <div class="btn-middle-katalog">
-                <button class="btn-katalog-coklat">Katalog Roti</button>
-                <button class="btn-katalog-coklat">Katalog Kopi</button>
-            </div>
-         </section>
+    <!-- Tombol Katalog -->
+<section class="selection-section py-4">
+    <div class="container text-center">
+        <button class="btn-roti">Roti</button>
+        <button class="btn-kopi">Kopi</button>
+    </div>
+</section>
 
 
-         <section class="produk-katalog">
-            <div class="roti-katalog">
-                <div class="roti-abon">
-                    <div class="picture">
-                        <img src="" alt="Roti Abon">
-                    </div>
-                    <div class="desc-main-roti">
-                        <h3 class="nama-roti">Roti Abon</h3>
-                        <p class="deskripsi-roti">Roti dengan tekstur lembut yang berpadu dengan rasa abon gurih.</p>
-                        <h3 class="harga-roti">RP 5.000</h3>
-                    </div>
-                </div>
-
-            </div>
-             <div class="roti-katalog">
-                <div class="roti-abon">
-                    <div class="picture">
-                        <img src="" alt="Roti Abon">
-                    </div>
-                    <div class="desc-main-roti">
-                        <h3 class="nama-roti">Roti Kornet Keju</h3>
-                        <p class="deskripsi-roti">Roti dengan tekstur lembut dengan topping Kornet keju diatasnya.</p>
-                        <h3 class="harga-roti">RP 5.000</h3>
+    <!-- MAIN CONTENT -->
+    <div class="container py-5">
+        <!-- PRODUCT GRID (Responsif) -->
+        <div class="row g-4">
+            
+            <!-- Card 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card card-product h-100">
+                    <!-- GANTI SRC DENGAN PATH GAMBAR ANDA, misal: images/roti-abon.jpg -->
+                    <img src="gambar/roti abon.JPG" class="card-img-top" alt="Roti Abon">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-brand-dark">Roti Abon</h5>
+                        <p class="card-text small text-muted">Roti dengan taburan abon sapi gurih, tekstur yang lembut dan kaya rasa.</p>
+                        <p class="fw-bold text-brand-orange mb-0">Rp 8.000</p>
                     </div>
                 </div>
             </div>
 
-             <div class="roti-katalog">
-                <div class="roti-abon">
-                    <div class="picture">
-                        <img src="" alt="Roti Abon">
-                    </div>
-                    <div class="desc-main-roti">
-                        <h3 class="nama-roti">Roti Sosis Saus Pedas</h3>
-                        <p class="deskripsi-roti">Roti dengan perpaduan isian sosis dan saus pedas yang gurih.</p>
-                        <h3 class="harga-roti">RP 5.000</h3>
-                    </div>
-                </div>
-
-            </div>
-             <div class="roti-katalog">
-                <div class="roti-abon">
-                    <div class="picture">
-                        <img src="" alt="Roti Abon">
-                    </div>
-                    <div class="desc-main-roti">
-                        <h3 class="nama-roti">Roti Selai Pisang</h3>
-                        <p class="deskripsi-roti">Roti dengan isian selai pisang yang autentik manis dan gurih di lidah.</p>
-                        <h3 class="harga-roti">RP 5.000</h3>
-                    </div>
-                </div>
-
-            </div>
-             <div class="roti-katalog">
-                <div class="roti-abon">
-                    <div class="picture">
-                        <img src="" alt="Roti Abon">
-                    </div>
-                    <div class="desc-main-roti">
-                        <h3 class="nama-roti">Roti Isi Coklat</h3>
-                        <p class="deskripsi-roti">Roti isian coklat yang lumer serta tekstur crunchy di luar.</p>
-                        <h3 class="harga-roti">RP 5.000</h3>
+            <!-- Card 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card card-product h-100">
+                    <img src="gambar/ROTI KORNET SAUS TEFASIP.png" class="card-img-top" alt="Roti Cream Keju">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-brand-dark">Roti Cream Keju</h5>
+                        <p class="card-text small text-muted">Roti dengan isian krim keju manis yang melimpah dan topping parutan keju.</p>
+                        <p class="fw-bold text-brand-orange mb-0">Rp 9.000</p>
                     </div>
                 </div>
             </div>
 
-             <div class="roti-katalog">
-                <div class="roti-abon">
-                    <div class="picture">
-                        <img src="" alt="Roti Abon">
-                    </div>
-                    <div class="desc-main-roti">
-                        <h3 class="nama-roti">Roti Boy</h3>
-                        <p class="deskripsi-roti">Roti dengan tekstur kering diluar dan tetap lembut dan fluffy didalamnya.</p>
-                        <h3 class="harga-roti">RP 5.000</h3>
-                    </div>
-                </div>
-            </div>
-         </section>
-
-         <section class="tentang-roti">
-            <div class="desc-main-roti">
-                <div class="tentang-roti-left">
-                    <h3>Dipanggang Fresh Setiap Hari</h3>
-                    <p>Semua produk bakery kami dibuat fresh setiap hari tanpa bahan pengawet. Kami mulai memanggang dari pagi hari untuk memastikan Anda mendapatkan roti dengan kualitas terbaik.</p>
-                </div>
-
-                <div class="tawaran-roti-right">
-                    <h3>Pre-order Untuk Acara</h3>
-                    <p>Kami menerima pre-order untuk kebutuhan acara Anda. Tersedia berbagai paket dengan harga spesial untuk pemesanan dalam jumlah besar. Hubungi kami untuk informasi lebih lanjut.</p>
-                </div>
-
-                <div class="layanan-roti-below">
-                    <div class="teks-layanan-roti">
-                    <h3>Ingin Belajar Membuat Roti?</h3>
-                    <p>Ikuti kelas baking kami dan pelajari teknik pembuatan roti dari para ahli. Cocok untuk pemula maupun yang ingin meningkatkan skill baking.</p>
-                    </div>
-                    <div class="btn-layanan-roti-div">
-                        <button class="btn-layanan-roti">Lihat Dokumentasi Wisata Edukasi</button>
+            <!-- Card 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card card-product h-100">
+                    <img src="gambar/ROTI SOSIS SAUS.png" class="card-img-top" alt="Roti Sosis">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-brand-dark">Roti Sosis Saus Pedas</h5>
+                        <p class="card-text small text-muted">Perpaduan sosis ayam dan saus pedas manis yang menggugah selera.</p>
+                        <p class="fw-bold text-brand-orange mb-0">Rp 11.000</p>
                     </div>
                 </div>
             </div>
-         </section>
-    </main>
 
+            <!-- Card 4 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card card-product h-100">
+                    <img src="gambar/ROTI SELAI PISANG TEFASIP.png" class="card-img-top" alt="Roti Coklat Pisang">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-brand-dark">Roti Coklat Pisang</h5>
+                        <p class="card-text small text-muted">Roti dengan isian selai coklat premium dan irisan buah pisang asli.</p>
+                        <p class="fw-bold text-brand-orange mb-0">Rp 10.500</p>
+                    </div>
+                </div>
+            </div>
 
-    <footer>
-        <!-- Footer section -->
-          <footer class="footer">
-      <section class="map-footer">
-        <div class="container-footer">
-          <div class="desc-main-footer">
+             <!-- Card 5 -->
+             <div class="col-12 col-md-6 col-lg-4">
+                <div class="card card-product h-100">
+                    <img src="gambar/ROTI ISI COKELAT KACANG.png" class="card-img-top" alt="Roti Isi Coklat">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-brand-dark">Roti Isi Coklat</h5>
+                        <p class="card-text small text-muted">Roti klasik dengan isian coklat lumer yang disukai semua kalangan.</p>
+                        <p class="fw-bold text-brand-orange mb-0">Rp 6.000</p>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Card 6 -->
+             <div class="col-12 col-md-6 col-lg-4">
+                <div class="card card-product h-100">
+                    <img src="gambar/roti boy.jpg" class="card-img-top" alt="Roti Boy">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-brand-dark">Roti Boy (Coffee Bun)</h5>
+                        <p class="card-text small text-muted">Roti dengan topping kopi harum dan isian mentega asin yang gurih.</p>
+                        <p class="fw-bold text-brand-orange mb-0">Rp 12.000</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- INFO FEATURES -->
+        <div class="row mt-5 g-4">
+            <div class="col-md-6">
+                <div class="bg-card-beige p-4 p-md-5 rounded-3 border border-warning text-center h-100 shadow-sm">
+                    <h4 class="text-brand-orange fw-bold mb-3">Dipanggang Fresh Setiap Hari</h4>
+                    <p class="text-muted small">Semua produk kami diolah fresh setiap hari menggunakan bahan-bahan berkualitas premium. Kami mulai memanggang dari pagi hari untuk memastikan Anda mendapatkan roti dengan kualitas terbaik.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="bg-card-beige p-4 p-md-5 rounded-3 border border-warning text-center h-100 shadow-sm">
+                    <h4 class="text-brand-orange fw-bold mb-3">Pre-Order untuk Acara</h4>
+                    <p class="text-muted small">Kami menerima pesanan dalam jumlah besar untuk acara, hantaran, atau rapat. Hubungi kami minimal H-2 untuk pemesanan dalam jumlah besar. Potongan harga khusus untuk pembelian banyak.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CALL TO ACTION -->
+        <div class="position-relative mt-5 rounded-4 overflow-hidden text-white text-center p-5 shadow-lg" style="background-color: #B38877;">
+             <!-- Background Placeholder Image (Ganti dengan gambar background menarik) -->
+             <div style="position: absolute; top:0; left:0; width:100%; height:100%; background: center/cover; opacity: 0.3; z-index: 0;"></div>
+             
+             <div class="position-relative z-1">
+                <h2 class="fw-bold mb-3">Ingin Belajar Membuat Roti?</h2>
+                <p class="mx-auto mb-4" style="max-width: 600px;">Ikuti kelas baking kami dengan instruktur berpengalaman. Cocok untuk pemula maupun yang ingin meningkatkan skill baking.</p>
+                <button class="btn btn-brand-orange rounded-pill px-5 py-3 fw-bold shadow">Lihat Jadwal & Daftar Kelas</button>
+             </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+  <footer class="py-2 px-2 row"> 
+          <div class="desc-main-footer col-xl-3">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.385380551048!2d113.72444487358713!3d-8.155306181694622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd69541b5529c1d%3A0x8a9bf208ba6d4d5e!2sTefa%20Cafe!5e1!3m2!1sid!2sid!4v1764236152249!5m2!1sid!2sid"
               width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"></iframe>
             <p>Lingkungan Panji, Tegalgede, Kec. Sumbersari, Kabupaten Jember, Jawa Timur 68124</p>
           </div>
-          <div class="desc-main-footer">
+
+          <div class="desc-main-footer col-xl-3">
             <h3>TEFA Bakery & Coffee</h3>
             <p>TEFA Bakery & Coffee adalah salah satu teaching Factory yang berada di Politeknik Negeri jember. TEFA
               yang
               menyajikan roti dan kopi yang berkualitas premium dengan cita rasa terbaik</p>
           </div>
-          <div class="kontak-main-footer">
+
+          <div class="kontak-main-footer col-xl-3">
             <h3>Kontak</h3>
             <p>+62 23-3349-7811</p>
             <p>humas@polije.ac.id</p>
-
             <h3>Media Sosial</h3>
             <p>@tefasippolije</p>
           </div>
-          <div class="jam-footer">
+
+          <div class="jam-footer col-xl-3">
             <h3>Jam Operasional</h3>
             <p>Senin-Jumat: 07.00-16.00</p>
           </div>
-      </section>
-      <section class="copy">
-        <div class="container-copy">
-        <div class="bottom-footer">
+      
+      
+        <div class="container-copy col-xl-12">
+          <hr class="garis-footer">
+          <div class="bottom-footer">
             <p>&copy By Kelompok 5 NasgorGoreng@2025</p>
-          </div>
-          </div>
-      </section>
+        </div>
     </footer>
-    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
