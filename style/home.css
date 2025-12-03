@@ -1,12 +1,8 @@
-
-
-
 body {
     margin: 0;
     font-family: "Poppins", sans-serif;
     background: #f7f3ef;
 }
-
 
 .banner-home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(/gambar/banner.jpg);
@@ -57,17 +53,6 @@ body {
     box-shadow: 4px 4px 6px #000000;
 }
 
-@media (max-width: 448px) {
-    .banner-home .container-home .btn-main {
-        display: flex;
-        gap: 10px;
-    }
-
-    .banner-home .container-home {
-        padding: 30px 60px;
-    }
-}
-
 .tentang-home {
     background-color: #F7F3EE;
 }
@@ -106,7 +91,7 @@ body {
     padding: 60px;
 }
 
-.tentang-home .container-tentang .tentang-beranda-right img{
+.tentang-home .container-tentang .tentang-beranda-right img {
     width: 200px;
     height: 200px;
     border-radius: 15px;
@@ -139,4 +124,3 @@ body {
     border: none;
     color: #6A5050;
 }
-
