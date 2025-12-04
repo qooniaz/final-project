@@ -10,7 +10,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 600px;
+    height: 700px;
 }
 
 .banner-profile .container-profile{
@@ -42,6 +42,7 @@ body{
     padding: 40px 60px;
     height: 450px;
     color: #553A2A;
+    padding-bottom: 10px;
 }
 
 .about-edukasi .container-about .desc-main-about h2{
@@ -60,38 +61,12 @@ body{
     margin-left: 0px;
 }
 
-
-/* Variabel Warna (Opsional, untuk konsistensi) */
-:root {
-    --primary-bg-color: #a56a5c; /* Warna latar belakang utama (coklat tua) */
-    --contact-bg-color: #d8a89b; /* Warna latar belakang kotak kontak (coklat muda) */
-    --text-color: #ffffff; /* Warna teks utama */
-    --button-bg-color: #c6ab9a; /* Warna latar belakang tombol */
-    --button-text-color: #f6f6f6; /* Warna teks tombol */
-}
-
-
-/* Gaya Kotak Informasi Kontak (Konten Kanan) */
-.contact-info-box {
-    background-color: #b38877;
-    padding: 30px;
-    border-radius: 10px;
-    min-width: 300px; /* Lebar minimum kotak */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    color: #fffdfd; /* Menggunakan warna coklat tua untuk teks */
-}
-
-.contact-title {
-    font-size: 1.2em;
-    font-weight: 700px;
-    margin-bottom: 50px;
-}
-
 /*                    DOKUMENTASI SECTION                    */
 
 .documentation-section {
     background-color: #b88676;       /* warna coklat lembut */
     padding: 80px 20px;
+    margin-bottom: 20px;
 }
 
 .section-title {
@@ -108,7 +83,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 60px;
+    gap: 80px;
     flex-wrap: wrap; /* agar responsif */
 }
 
@@ -123,38 +98,18 @@ body{
     transition: 0.3s ease;
 }
 
-.image-card:hover {
+.gallery-image:hover {
     transform: translateY(-6px);
     box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+    transition: 0.3s ease;
 }
 
 /* Gambar */
 .gallery-image {
-    width: 100%;
-    height: auto;
+    width: 480px;
+    height: 300px;
     border-radius: 16px;
     object-fit: cover;
-}
-
-/* Left & Right card alignment                                */
-
-/* Image Card Left */
-.image-card-left {
-    margin-left: 0; /* default */
-}
-
-/* Image Card Right */
-.image-card-right {
-    margin-right: 0; /* default */
-}
-
-/* Jika ingin efek berbeda untuk L dan R */
-.image-card-left {
-    border: 3px solid rgba(255,255,255,0.18);
-}
-
-.image-card-right {
-    border: 3px solid rgba(255,255,255,0.18);
 }
 
 /* Responsive Adjustment                                      */
@@ -192,6 +147,7 @@ body{
 }
 
 
+
 /* CTA SECTION */
 .education-cta-section {
     background-color: #b38877;      /* warna seperti contoh */
@@ -200,6 +156,7 @@ body{
     margin: 40px auto;
     max-width: 1300px;
     box-shadow: 0px 15px 30px rgba(0,0,0,0.1);
+    text-align: center;
 }
 
 /* Layout container */
@@ -235,9 +192,10 @@ body{
 .cta-button {
     background-color: #d46929;
     border: none;
+    text-align: center;
+    position: justify;
     padding: 15px 30px;
     font-size: 1rem;
-    color: white;
     border-radius: 30px;
     cursor: pointer;
     font-weight: 600;
@@ -245,38 +203,14 @@ body{
     transition: 0.3s ease;
 }
 
+.cta-button a {
+    color: white;
+    text-decoration: none;
+}
 .cta-button:hover {
     background-color: #d49b86;
     box-shadow: 0px 10px 18px rgba(0,0,0,0.25);
-}
-
-/* CONTACT INFO BOX */
-.contact-info-box {
-    background-color: #c48b77;
-    padding: 30px 35px;
-    border-radius: 18px;
-    width: 350px;
-    min-height: 280px;
-    box-shadow: 0px 10px 22px rgba(0,0,0,0.15);
-    flex-shrink: 0;
-}
-
-.contact-title {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: white;
-    margin-bottom: 25px;
-}
-
-/* Contact item */
-.contact-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 12px;
-    margin-bottom: 18px;
-    font-size: 1rem;
-    color: #ffffff;
-    line-height: 1.5;
+    transform: translateY(-5px);
 }
 
 .contact-item .icon {
