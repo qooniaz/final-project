@@ -31,6 +31,7 @@
 }
 
 .navbar .navbar-container .navbar-menu{
+    /* rata kanan kiri secara horizontal */
     display: flex;
     justify-content: space-between;
     gap: 40px;

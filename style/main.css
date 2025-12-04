@@ -12,20 +12,18 @@ body {
 /* Nav Style */
 /* AREA NAVBAR */
 header {
-    position: fixed;
+    /* supaya navbar saat discroll tidak ikut ke scroll */
+    position: fixed; 
     top: 0;
+    /* supaya navbar tidak ketutupan elemen lain. */
     z-index: 10;
     width: 100%;
     background: hsl(7, 23%, 28%);
     padding: 0px 60px;
 }
 
-.navbar-nav {
-    position: absolute;
-    transform: translate(570px, 20px);
-}
-
 .navbar .navbar-container {
+    /* menyusun logo secara horizontal */
     display: flex;
     align-items: center;
     justify-content: space-between;
