@@ -22,19 +22,11 @@ body{
     height: 100%;
 }
 
-.banner-profile .container-profile .desc-main-banner {
-    text-align: center;
-    color: #F4E9D8;
-    font-weight: bold;
-}
-
-.banner-profile .container-profile .desc-main-banner h1 {
+ .desc-main-banner h1  {
     font-size: 4rem;
-    font-weight: 900px;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
+    font-weight: 700;  
     color: #F4E9D8;
+    text-align: center;
 }
 
 .about-edukasi{
@@ -49,7 +41,7 @@ body{
     font-size: 2rem;
     font-weight: 800px;
     margin-bottom: 10px;
-    margin-left: 60px;
+    margin-left: 30px;
     font-weight: bold;
 }
 
@@ -58,7 +50,7 @@ body{
     padding: 10px 60px;
     text-align: justify;
     gap: 10px;
-    margin-left: 0px;
+    margin-left: -30px;
 }
 
 /*                    DOKUMENTASI SECTION                    */
