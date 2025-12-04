@@ -35,6 +35,7 @@ body {
 }
 .navbar  .navbar-left  img {
     width: 50px;
+    /* gap: 50px; */
 }
 
 .navbar .navbar-container .navbar-menu{
@@ -55,12 +56,13 @@ footer {
     background-color: #6E4946;
     color: #ffff;
     height: 90%;
+    gap: 25px;
 }
 
-/* .py-2{
+.py-2{
     display: flex;
     grid-template-columns: repeat(4, 1fr);
-} */
+}
 
 .desc-main-footer img{
     width: 300px;
@@ -69,12 +71,12 @@ footer {
     border-radius: 15px;
 }
 
-/* .py-2 .desc-main-footer .kontak-main-footer .jam-footer .container-copy {
+.py-2 .desc-main-footer .kontak-main-footer .jam-footer .container-copy {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
-    padding: 40px 60px; */
-
+    padding: 40px 60px;
+}
 
 /* .footer{
     background-color: #6E4946;
@@ -106,12 +108,12 @@ footer {
     font-weight: 800px;
 }
 
-.copy .container-copy .bottom-footer{
+.container-copy  .bottom-footer {
     font-size: 1rem;
     font-weight: 800px;
     text-align: center;
     justify-content: center;
-    padding: 50px 60px;
+    /* padding: 50px 60px; */
 }
 
 .container-copy .garis-footer {
@@ -133,4 +135,7 @@ footer {
     gap: 30px;
     padding: 40px 60px;
 } */
-    
+ .navbar-nav {
+    position: absolute;
+    transform: translate(570px,20px);
+ }
