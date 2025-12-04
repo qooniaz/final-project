@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     font-family: "Poppins", sans-serif;
     background: #f7f3ef;
@@ -10,10 +10,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 300px;
+    height: 400px;
 }
 
-.banner-profile .container-profile{
+.banner-profile .container-profile {
     display: flex;
     flex-direction: column;
     padding: 30px 100px;
@@ -29,7 +29,7 @@ body{
 }
 
 .banner-profile .container-profile .desc-main-banner h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 800px;
     align-items: center;
     justify-content: center;
@@ -37,20 +37,22 @@ body{
     color: #F4E9D8;
 }
 
-.about-profile{
-    background-color: #F4E9D8;
+.about-profile {
+    background-color: #F7F3EE;
     padding: 40px 60px;
     height: 300px;
     color: #553A2A;
 }
-.about-profile .container-about .desc-main-about h2{
+
+.about-profile .desc-main-about h2 {
     font-size: 2rem;
     font-weight: 800px;
     margin-bottom: 10px;
     text-align: center;
+    font-weight: bold;
 }
 
-.about-profile .container-about .desc-main-about p{
+.about-profile .desc-main-about p {
     font-size: 1rem;
     padding: 10px 60px;
     text-align: justify;
@@ -62,70 +64,104 @@ body{
     padding: 40px 60px;
 }
 
-.visimisi-profile .container-visi-misi .visimisi-card{
+.visimisi-profile .visimisi-card {
     display: flex;
     gap: 30px;
     height: 400px;
     padding: 40px 40px;
     align-items: center;
     justify-content: center;
-    /* max-width: 100%; */
 }
 
-.visimisi-profile .container-visi-misi .visimisi-card .visi-main{
+.visimisi-profile .visimisi-card .visi-main {
     display: flex;
     flex-direction: column;
-    background: #F7EFE8;         
+    background: #F7F3EE;
     width: 300px;
     height: 400px;
     padding: 35px 30px;
     border-radius: 20px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     text-align: center;
-    /* justify-content: center; */
 }
 
-.visimisi-profile .container-visi-misi .visimisi-card .visi-main h3{
+.visimisi-profile .visimisi-card .visi-main h3 {
     padding: 40px 0px;
     margin-bottom: 10px;
-    font-size: 2rem;
+    font-size: 1.8rem;
     width: 100%;
     color: #553A2A;
     text-align: center;
     justify-content: baseline;
+    font-weight: bold;
 }
 
-.visimisi-profile .container-visi-misi .visimisi-card .misi-main{
+.visimisi-profile .visimisi-card .misi-main {
     display: flex;
     flex-direction: column;
-    background: #F7EFE8;         
+    background: #F7F3EE;
     width: 300px;
     height: 400px;
     padding: 35px 30px;
     border-radius: 20px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     text-align: center;
-    /* justify-content: center; */
 }
 
-.visimisi-profile .container-visi-misi .visimisi-card .misi-main h3{
+.visimisi-profile .visimisi-card .misi-main h3 {
     padding: 40px 0px;
     margin-bottom: 10px;
-    font-size: 2rem;
+    font-size: 1.8rem;
     width: 100%;
     color: #553A2A;
     text-align: center;
     justify-content: baseline;
+    font-weight: bold;
 }
 
-.produk-profile{
-    background-color: #F4E9D8;
+.produk-profile {
+    background-color: #F7F3EE;
     padding: 40px 60px;
-    height: 300px;
+    height: 500px;
 }
 
-.produk-profile .container-aneka {
+.produk-profile .container-aneka h2 {
     text-align: center;
     justify-content: center;
+    color: #553A2A;
+    font-weight: bold;
+}
+
+.produk-profile .fotoroti-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 40px 60px;
+    border-radius: 15px;
+
+}
+
+.produk-profile .fotoroti-container .fotoroti-aneka1 img {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    align-items: center;
+    justify-items: center;
+}
+
+.produk-profile .fotoroti-container .fotoroti-aneka1 h4 {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 10px;
+    color: #553A2A;
+}
+
+.produk-profile .fotoroti-container .fotoroti-aneka1 p {
+    min-height: 40px;
+    line-height: 1, 5;
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px 40px 5px;
     color: #553A2A;
 }

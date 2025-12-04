@@ -1,57 +1,8 @@
-* {
-    margin: 0;
-    top: 0;
-    font-family: "Poppins", sans-serif;
-}
-
-/* AREA NAVBAR */
-.navbar {
-    width: 100%;
-    background: #573A36;
-
-}
-
-.navbar .navbar-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 60px;
-}
-
-/* LOGO KIRI */
-.navbar .navbar-container .navbar-left {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    /* jarak antar logo */
-}
-
-.navbar .navbar-container .navbar-left img {
-    width: 50px;
-}
-
-.navbar .navbar-container .navbar-menu {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-}
-
-.navbar .navbar-container .navbar-menu li {
-    list-style: none;
-}
-
-.navbar .navbar-container .navbar-menu li a {
-    color: white;
-    text-decoration: none;
-}
-
-
 body {
     margin: 0;
     font-family: "Poppins", sans-serif;
     background: #f7f3ef;
 }
-
 
 .banner-home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(/gambar/banner.jpg);
@@ -59,7 +10,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 400px;
+    height: 700px;
 }
 
 .banner-home .container-home {
@@ -99,17 +50,7 @@ body {
     background-color: rgba(199, 122, 99, 100, 0.7);
     border: none;
     color: #000000;
-}
-
-@media (max-width: 448px) {
-    .banner-home .container-home .btn-main {
-        display: flex;
-        gap: 10px;
-    }
-
-    .banner-home .container-home {
-        padding: 30px 60px;
-    }
+    box-shadow: 4px 4px 6px #000000;
 }
 
 .tentang-home {
@@ -150,7 +91,7 @@ body {
     padding: 60px;
 }
 
-.tentang-home .container-tentang .tentang-beranda-right img{
+.tentang-home .container-tentang .tentang-beranda-right img {
     width: 200px;
     height: 200px;
     border-radius: 15px;
@@ -182,6 +123,4 @@ body {
     background-color: rgba(199, 122, 99, 100, 0.7);
     border: none;
     color: #6A5050;
-
 }
-

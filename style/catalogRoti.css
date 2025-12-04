@@ -1,0 +1,196 @@
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #F7F3EE;
+            margin: 0;
+        }
+
+        /* Warna Navbar*/
+        .bg-brand-dark {
+            background-color: #583B37 !important;
+        }
+
+        .text-brand-dark {
+            color: #583B37 !important;
+        }
+
+        .bg-brand-accent {
+            background-color: #8D6E63 !important;
+        }
+
+        .bg-card-beige {
+            background-color: #F5E6D3;
+        }
+
+        /* Navbar Customization */
+        .navbar-brand-logo {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: white;
+            color: #3E2723;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .navbar-brand {
+            gap: 4px;
+        }
+
+        .navbar {
+            padding: 10px 60px;
+            width: 100%;
+            height: 81px;
+        }
+
+        .nav-link {
+            color: white;
+        }
+
+        .nav-link:hover {
+            color: #2264bb !important;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            margin-top: 70px;
+            /* Offset for fixed navbar */
+            height: 350px;
+
+            margin-top: 70px;
+            /* Offset for fixed navbar */
+            height: 600px;
+            position: relative;
+            background-image: url('../gambar/banner.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero-overlay {
+            display: flex;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(/gambar/banner.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 600px;
+            flex-direction: column;
+            gap: 40px;
+            padding: 30px 100px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .selection-section {
+            background-color: #E2CCB1;
+        }
+
+        /*Button*/
+        .btn-signature {
+            background-color: #8D6E63;
+            color: white;
+            width: 228px;
+            height: 57px;
+            border: none;
+            padding: 10px 30px;
+            margin: 0 10px;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .btn-signature:hover {
+            background-color: #4D312E;
+            color: white;
+        }
+
+        .btn-roti {
+            flex-wrap: wrap;
+            background-color: #4D312E;
+            color: white;
+            width: 228px;
+            height: 57px;
+            border: none;
+            padding: 10px 30px;
+            margin: 0 10px;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .btn-roti:hover {
+            background-color: #8D6E63;
+            color: white;
+        }
+
+        .btn-kopi {
+            background-color: #8D6E63;
+            color: white;
+            width: 228px;
+            height: 57px;
+            border: none;
+            padding: 10px 30px;
+            margin: 0 10px;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .btn-kopi:hover {
+            background-color: #4D312E;
+            color: white;
+        }
+
+        /* Product Card Custom Hover Effect */
+        .card-product {
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Efek membesar saat kursor diarahkan (Hover) */
+        .card-product:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            z-index: 10;
+        }
+
+        .card-img-top {
+            height: 220px;
+            object-fit: cover;
+            transition: filter 0.3s;
+        }
+
+        .card-product:hover .card-img-top {
+            filter: brightness(0.9);
+        }
+
+        .text-brand-orange {
+            color: #D46929 !important;
+        }
+
+        .btn-brand-orange {
+            background-color: #D46929;
+            color: rgb(255, 255, 255);
+        }
+
+        .btn-brand-orange:hover {
+            background-color: #714B3A;
+            color: rgb(255, 255, 255);
+        }
+
+        .mx-auto {
+            color: #553A2A !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #6E4946;
+            color: white;
+            padding: 20px 0;
+        }
