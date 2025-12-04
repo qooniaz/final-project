@@ -1,14 +1,25 @@
-               body {
+        body {
             font-family: 'Poppins', sans-serif;
             background-color: #F7F3EE;
             margin: 0;
         }
 
         /* Warna Navbar*/
-        .bg-brand-dark { background-color: #583B37 !important; }
-        .text-brand-dark { color: #583B37 !important; }
-        .bg-brand-accent { background-color: #8D6E63 !important; }
-        .bg-card-beige { background-color: #F5E6D3; }
+        .bg-brand-dark {
+            background-color: #583B37 !important;
+        }
+
+        .text-brand-dark {
+            color: #583B37 !important;
+        }
+
+        .bg-brand-accent {
+            background-color: #8D6E63 !important;
+        }
+
+        .bg-card-beige {
+            background-color: #F5E6D3;
+        }
 
         /* Navbar Customization */
         .navbar-brand-logo {
@@ -23,7 +34,7 @@
         }
 
         .navbar-brand {
-            gap: 4px;   
+            gap: 4px;
         }
 
         .navbar {
@@ -36,30 +47,34 @@
             color: white;
         }
 
-        .nav-link:hover { color: #2264bb !important;}
+        .nav-link:hover {
+            color: #2264bb !important;
+        }
 
         /* Hero Section */
         .hero-section {
-            margin-top: 70px; /* Offset for fixed navbar */
+            margin-top: 70px;
+            /* Offset for fixed navbar */
             height: 600px;
             position: relative;
             background-image: url('../gambar/banner.jpg');
             background-size: cover;
             background-position: center;
         }
+
         .hero-overlay {
-         display: flex;
-         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(/gambar/banner.jpg);
-         background-position: center;
-         background-repeat: no-repeat;
-         background-size: cover;
-         width: 100%;
-         height: 400px;
-         flex-direction: column;
-         gap: 40px;
-         padding: 30px 100px;
-         align-items: center;
-         justify-content: center;
+            display: flex;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(/gambar/banner.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 400px;
+            flex-direction: column;
+            gap: 40px;
+            padding: 30px 100px;
+            align-items: center;
+            justify-content: center;
         }
 
         .selection-section {
@@ -85,10 +100,12 @@
             font-weight: bold;
             transition: background-color 0.3s, color 0.3s;
         }
+
         .btn-signature:hover {
             background-color: #8D6E63;
             color: white;
         }
+
         .btn-roti {
             flex-wrap: wrap;
             background-color: #8D6E63;
@@ -102,6 +119,7 @@
             font-weight: bold;
             transition: background-color 0.3s, color 0.3s;
         }
+
         .btn-roti:hover {
             background-color: #4D312E;
             color: white;
@@ -125,23 +143,30 @@
             color: white;
         }
 
-    
-         /* --- Hero Section & Responsive Images --- */
+
+        /* --- Hero Section & Responsive Images --- */
         .hero-section {
             position: relative;
-            height: 400px; /* Tinggi default desktop */
+            height: 400px;
+            /* Tinggi default desktop */
             overflow: hidden;
-            background-color: #ccc; /* Warna fallback jika gambar belum dimuat */
+            background-color: #ccc;
+            /* Warna fallback jika gambar belum dimuat */
         }
+
         .hero-img {
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
+
         .hero-overlay {
             background: rgba(0, 0, 0, 0.5);
             position: absolute;
-            top: 0; left: 0; right: 0; bottom: 0;
+            /* top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0; */
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -155,21 +180,24 @@
             position: sticky;
             top: 0;
             z-index: 1020;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
+
         .btn-filter-active {
             background-color: var(--brand-brown-dark);
             color: white;
             border: none;
         }
+
         .btn-filter {
-            background-color: rgba(255,255,255,0.3);
+            background-color: rgba(255, 255, 255, 0.3);
             color: var(--brand-brown-dark);
             border: none;
             transition: all 0.3s;
         }
+
         .btn-filter:hover {
-            background-color: rgba(255,255,255,0.6);
+            background-color: rgba(255, 255, 255, 0.6);
             color: var(--brand-brown-dark);
         }
 
@@ -177,18 +205,20 @@
         .product-frame {
             border: 4px solid var(--brand-brown);
             border-radius: 1rem;
-            overflow: hidden; /* Mencegah gambar keluar frame saat zoom */
+            overflow: hidden;
+            /* Mencegah gambar keluar frame saat zoom */
             position: relative;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
             background-color: #eee;
         }
 
         .product-frame {
             border: 10px solid #3E2723;
             border-radius: 1rem;
-            overflow: hidden; /* Mencegah gambar keluar frame saat zoom */
+            overflow: hidden;
+            /* Mencegah gambar keluar frame saat zoom */
             position: relative;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
             background-color: #eee;
         }
 
@@ -200,25 +230,26 @@
 
         /* Trigger zoom saat mouse hover */
         .product-frame:hover .product-img-zoom {
-            transform: scale(1.1); 
+            transform: scale(1.1);
         }
 
-        
+
         /* Teks */
         .Judul {
             color: #4D312E !important;
-            font-size: 40px;
+            font-size: 2rem;
             font-weight: bold;
         }
 
         .Sejarah {
             color: #6E4946 !important;
-            font-size: 40px;
+            font-size: 2rem;
             font-weight: bold;
         }
+
         .text-muted {
             color: #6E4946 !important;
-            font-size: 24px;
+            font-size: 1rem;
         }
 
 

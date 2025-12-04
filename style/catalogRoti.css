@@ -34,7 +34,7 @@
         }
 
         .navbar-brand {
-            gap: 4px;   
+            gap: 4px;
         }
 
         .navbar {
@@ -57,7 +57,8 @@
             /* Offset for fixed navbar */
             height: 350px;
 
-            margin-top: 70px; /* Offset for fixed navbar */
+            margin-top: 70px;
+            /* Offset for fixed navbar */
             height: 600px;
             position: relative;
             background-image: url('../gambar/banner.jpg');
@@ -66,18 +67,18 @@
         }
 
         .hero-overlay {
-         display: flex;
-         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(/gambar/banner.jpg);
-         background-position: center;
-         background-repeat: no-repeat;
-         background-size: cover;
-         width: 100%;
-         height: 600px;
-         flex-direction: column;
-         gap: 40px;
-         padding: 30px 100px;
-         align-items: center;
-         justify-content: center;
+            display: flex;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(/gambar/banner.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 600px;
+            flex-direction: column;
+            gap: 40px;
+            padding: 30px 100px;
+            align-items: center;
+            justify-content: center;
         }
 
         .selection-section {
@@ -97,10 +98,12 @@
             font-weight: bold;
             transition: background-color 0.3s, color 0.3s;
         }
+
         .btn-signature:hover {
             background-color: #4D312E;
             color: white;
         }
+
         .btn-roti {
             flex-wrap: wrap;
             background-color: #4D312E;

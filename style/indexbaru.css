@@ -51,30 +51,29 @@ body {
 
 .tentang-home {
     background-color: #F7F3EE;
-    margin: 0;
+    margin: 60 px;
     color: #553A2A;
+    padding: 60px;
+    /* display: flex; */
 }
 
 .tentang-beranda-left {
     text-align: left;
-    padding: 40px 100px 40px 55px;
-}
-
-.tentang-beranda-right {
-    display: block;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
     padding: 60px;
 }
 
-.tentang-beranda-right img{
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-    overflow: hidden;
-    padding: 10px 60px;
+.tentang-beranda-right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
+.foto-1, .foto-2, .foto-3, .foto-4 {
+    width: 180px;          /* atur ukuran lingkaran */
+    height: 180px;         /* harus sama width & height */
+    border-radius: 10%;    /* bulat sempurna */
+    object-fit: cover;     /* biar tidak gepeng */
+    gap: 10px;
+}
 .tentang-beranda-left .btn-main-home {
     padding: 10px;
     border: 2px solid #000000;
@@ -96,11 +95,12 @@ body {
 .kunjungi-home {
     background-color: #B38877;
     height: 300px;
+    width: 100%;
     padding: 40px 60px;
 }
 
 .kunjungi-home  {
-    padding: 80px 20px;
+    padding: 40px 20px;
     text-align: center;
 }
 
