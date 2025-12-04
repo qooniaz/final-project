@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    top: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* AREA NAVBAR */
+.navbar {
+    width: 100%;
+    background: #573A36;
+
+}
+
+.navbar .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px;
+}
+
+/* LOGO KIRI */
+.navbar .navbar-container .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;        
+    /* jarak antar logo */
+}
+
+.navbar .navbar-container .navbar-left  img {
+    width: 50px;
+}
+
+.navbar .navbar-container .navbar-menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.navbar .navbar-container .navbar-menu li{
+    list-style: none;
+}
+
+.navbar .navbar-container .navbar-menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* ====== GLOBAL STYLE ====== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f0eb;
+}
+
+/* ====== HEADER ====== */
+header {
+    background-color: #543834;
+    padding: 25px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* ====== GALLERY GRID ====== */
+.gallery-container {
+    max-width: 1100px;     
+    margin: 40px auto;
+    padding: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 180px;          
+    object-fit: cover;
+    border-radius: 12px;
+    background-color: white;
+    padding: 6px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: 0.2s;
+}
+
+.gallery img:hover {
+    transform: scale(1.03);
+}
+
+/* Footer Style */
+
+.footer{
+    background-color: #6E4946;
+    color: #ffff;
+}
+
+.footer .map-footer .container-footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 40px 60px;
+}
+
+.footer .map-footer .container-footer img{
+    width: 300px;
+    height: 200px;
+    padding: 40px 10px 20px 60px;
+    border-radius: 15px;
+}
+
+.footer .map-footer .container-footer h3{
+
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.footer .map-footer .container-footer{
+    font-size: 1rem;
+    font-weight: 800px;
+}
+
+.copy .container-copy .bottom-footer{
+    font-size: 1rem;
+    font-weight: 800px;
+    text-align: center;
+    justify-content: center;
+    padding: 50px 60px;
+}
