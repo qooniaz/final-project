@@ -1,14 +1,28 @@
-*{
+body {
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+* {
     margin: 0;
     top: 0;
     font-family: "Poppins", sans-serif;
 }
 
+/* Nav Style */
 /* AREA NAVBAR */
-.navbar {
+header {
+    position: fixed;
+    top: 0;
+    z-index: 10;
     width: 100%;
-    background: #573A36;
+    background: hsl(7, 23%, 28%);
+    padding: 0px 60px;
+}
 
+.navbar-nav {
+    position: absolute;
+    transform: translate(570px, 20px);
 }
 
 .navbar .navbar-container {
@@ -16,32 +30,36 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 60px;
+    width: 100%;
+}
+
+.navbar ul li a {
+    color: white;
 }
 
 /* LOGO KIRI */
 .navbar .navbar-container .navbar-left {
     display: flex;
-    align-items: center;
-    gap: 20px;        
+    align-items: start;
+    gap: 10px;
     /* jarak antar logo */
 }
 
-.navbar .navbar-container .navbar-left  img {
+.navbar .navbar-left img {
     width: 50px;
 }
 
-.navbar .navbar-container .navbar-menu{
-    /* rata kanan kiri secara horizontal */
+.navbar .navbar-container .navbar-menu {
     display: flex;
     justify-content: space-between;
     gap: 40px;
 }
 
-.navbar .navbar-container .navbar-menu li{
+.navbar .navbar-container .navbar-menu li {
     list-style: none;
 }
 
-.navbar .navbar-container .navbar-menu li a{
+.navbar .navbar-container .navbar-menu li a {
     color: white;
     text-decoration: none;
 }
@@ -50,7 +68,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
     background-color: #f5f0eb;
 }
 
@@ -101,41 +119,30 @@ header p {
 }
 
 /* Footer Style */
-
-.footer{
+footer {
     background-color: #6E4946;
     color: #ffff;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
 }
 
-.footer .map-footer .container-footer{
+footer .top-footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    padding: 70px;
     gap: 30px;
-    padding: 40px 60px;
+    font-size: 16px;
 }
 
-.footer .map-footer .container-footer img{
-    width: 300px;
-    height: 200px;
-    padding: 40px 10px 20px 60px;
-    border-radius: 15px;
-}
-
-.footer .map-footer .container-footer h3{
-
-    font-size: 1rem;
+footer .top-footer h3 {
+    font-size: 18px;
     font-weight: bold;
 }
 
-.footer .map-footer .container-footer{
-    font-size: 1rem;
-    font-weight: 800px;
-}
-
-.copy .container-copy .bottom-footer{
-    font-size: 1rem;
-    font-weight: 800px;
+footer .bottom-footer {
     text-align: center;
-    justify-content: center;
-    padding: 50px 60px;
+    border-top: #ccbcbb 1px solid;
+    padding-top: 20px;
 }

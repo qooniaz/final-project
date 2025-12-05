@@ -34,14 +34,16 @@
         }
 
         .navbar-brand {
-            gap: 4px;
+            gap: 8px;
         }
 
         .navbar {
-            padding: 10px 60px;
+            padding: 10px 15px;
             width: 100%;
             height: 81px;
+            backdrop-filter: blur(10px);
         }
+        
 
         .nav-link {
             color: white;
@@ -50,6 +52,7 @@
         .nav-link:hover {
             color: #2264bb !important;
         }
+        
 
         /* Hero Section */
         .hero-section {
@@ -82,10 +85,10 @@
         }
 
         .selection-section {
-            background-color: #E2CCB1;
+            background-color: #F2EBE9;
         }
 
-        /*Button*/
+        /*Switch Button Katalog*/
         .btn-signature {
             background-color: #8D6E63;
             color: white;
@@ -213,4 +216,40 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             transition: background-color 0.3s, transform 0.3s;
             z-index: 1000;
+        }
+
+        .back-to-top:hover {
+            background-color: #e67839;
+            transform: scale(1.2);
+        }
+
+
+        /* Responsif */
+        @media (max-width: 768px) {
+            .hero-overlay {
+                padding: 20px;
+                height: 400px;
+            }
+
+            .hero-section {
+                height: 400px;
+            }
+
+            .navbar {
+                padding: 10px 20px;
+                height: auto;
+                backdrop-filter: none;
+
+            }
+        
+           /* Tombol Katalog Responsif */
+            .container-grid-buttons {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+                gap: 10px;
+                width: 100%;
+                border: 2px dashed;
+                padding: 10px;
+                justify-items: center;
+            }
         }
