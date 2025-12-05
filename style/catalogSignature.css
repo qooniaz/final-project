@@ -51,16 +51,11 @@
             color: #2264bb !important;
         }
 
-        
         /* Hero Section */
         .hero-section {
             margin-top: 70px;
             /* Offset for fixed navbar */
-            height: 350px;
-
-            margin-top: 70px;
-            /* Offset for fixed navbar */
-            height: 400px;
+            height: 600px;
             position: relative;
             background-image: url('../gambar/banner.jpg');
             background-size: cover;
@@ -83,7 +78,7 @@
         }
 
         .selection-section {
-            background-color: #E2CCB1;
+            background-color: #F2EBE9;
         }
 
         .display-4 {
