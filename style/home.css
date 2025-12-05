@@ -5,6 +5,7 @@ body {
 }
 
 .banner-home {
+    /* memberikan kesan/efek gelap (gradiasi) */
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(/gambar/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -30,7 +31,7 @@ body {
 
 .banner-home .container-home .desc-main h1 {
     font-size: 3rem;
-    font-weight: 800px;
+    font-weight: 800;
     font-weight: bold;
     color: #F7F3EE;
 }
