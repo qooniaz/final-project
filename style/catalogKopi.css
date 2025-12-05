@@ -5,10 +5,21 @@
         }
 
         /* Warna Navbar*/
-        .bg-brand-dark { background-color: #583B37 !important; }
-        .text-brand-dark { color: #583B37 !important; }
-        .bg-brand-accent { background-color: #8D6E63 !important; }
-        .bg-card-beige { background-color: #F5E6D3; }
+        .bg-brand-dark {
+            background-color: #583B37 !important;
+        }
+
+        .text-brand-dark {
+            color: #583B37 !important;
+        }
+
+        .bg-brand-accent {
+            background-color: #8D6E63 !important;
+        }
+
+        .bg-card-beige {
+            background-color: #F5E6D3;
+        }
 
         /* Navbar Customization */
         .navbar-brand-logo {
@@ -23,50 +34,61 @@
         }
 
         .navbar-brand {
-            gap: 4px;   
+            gap: 8px;
         }
 
         .navbar {
-            padding: 10px 60px;
+            padding: 10px 15px;
             width: 100%;
             height: 81px;
+            backdrop-filter: blur(10px);
         }
+        
 
         .nav-link {
             color: white;
         }
 
-        .nav-link:hover { color: #2264bb !important;}
+        .nav-link:hover {
+            color: #2264bb !important;
+        }
+        
 
         /* Hero Section */
         .hero-section {
-            margin-top: 70px; /* Offset for fixed navbar */
+            margin-top: 70px;
+            /* Offset for fixed navbar */
+            height: 350px;
+
+            margin-top: 70px;
+            /* Offset for fixed navbar */
             height: 600px;
             position: relative;
             background-image: url('../gambar/banner.jpg');
             background-size: cover;
             background-position: center;
         }
+
         .hero-overlay {
-           display: flex;
-         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(/gambar/banner.jpg);
-         background-position: center;
-         background-repeat: no-repeat;
-         background-size: cover;
-        width: 100%;
-        height: 600px;
-        flex-direction: column;
-        gap: 40px;
-        padding: 30px 100px;
-        align-items: center;
-        justify-content: center;
+            display: flex;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(/gambar/banner.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 600px;
+            flex-direction: column;
+            gap: 40px;
+            padding: 30px 100px;
+            align-items: center;
+            justify-content: center;
         }
 
         .selection-section {
-            background-color: #E2CCB1;
+            background-color: #F2EBE9;
         }
 
-        /*Button*/
+        /*Switch Button Katalog*/
         .btn-signature {
             background-color: #8D6E63;
             color: white;
@@ -79,10 +101,12 @@
             font-weight: bold;
             transition: background-color 0.3s, color 0.3s;
         }
+
         .btn-signature:hover {
             background-color: #4D312E;
             color: white;
         }
+
         .btn-roti {
             flex-wrap: wrap;
             background-color: #8D6E63;
@@ -96,6 +120,7 @@
             font-weight: bold;
             transition: background-color 0.3s, color 0.3s;
         }
+
         .btn-roti:hover {
             background-color: #4D312E;
             color: white;
@@ -118,7 +143,7 @@
             background-color: #8D6E63;
             color: white;
         }
-    
+
         /* Product Card Custom Hover Effect */
         .card-product {
             border: none;
@@ -126,19 +151,22 @@
             overflow: hidden;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             cursor: pointer;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
+
         /* Efek membesar saat kursor diarahkan (Hover) */
         .card-product:hover {
-            transform: scale(1.05); 
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
             z-index: 10;
         }
+
         .card-img-top {
             height: 220px;
             object-fit: cover;
             transition: filter 0.3s;
         }
+
         .card-product:hover .card-img-top {
             filter: brightness(0.9);
         }
@@ -151,6 +179,7 @@
             background-color: #D46929;
             color: rgb(255, 255, 255);
         }
+
         .btn-brand-orange:hover {
             background-color: #714B3A;
             color: rgb(255, 255, 255);
@@ -167,4 +196,60 @@
             background-color: #6E4946;
             color: white;
             padding: 20px 0;
+        }
+
+        /* BackToTop Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            background-color: #D46929;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, transform 0.3s;
+            z-index: 1000;
+        }
+
+        .back-to-top:hover {
+            background-color: #e67839;
+            transform: scale(1.2);
+        }
+
+
+        /* Responsif */
+        @media (max-width: 768px) {
+            .hero-overlay {
+                padding: 20px;
+                height: 400px;
+            }
+
+            .hero-section {
+                height: 400px;
+            }
+
+            .navbar {
+                padding: 10px 20px;
+                height: auto;
+                backdrop-filter: none;
+
+            }
+        
+           /* Tombol Katalog Responsif */
+            .container-grid-buttons {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+                gap: 10px;
+                width: 100%;
+                border: 2px dashed;
+                padding: 10px;
+                justify-items: center;
+            }
         }

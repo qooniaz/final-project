@@ -51,11 +51,16 @@
             color: #2264bb !important;
         }
 
+        
         /* Hero Section */
         .hero-section {
             margin-top: 70px;
             /* Offset for fixed navbar */
-            height: 600px;
+            height: 350px;
+
+            margin-top: 70px;
+            /* Offset for fixed navbar */
+            height: 400px;
             position: relative;
             background-image: url('../gambar/banner.jpg');
             background-size: cover;
