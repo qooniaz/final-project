@@ -37,6 +37,10 @@
             gap: 8px
         }
 
+        .collapse {
+            margin-left: auto;
+        }
+
         .navbar {
             padding: 10px 15px;
             width: 100%;
