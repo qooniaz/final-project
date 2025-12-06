@@ -1,0 +1,140 @@
+/* Mobile responsive overrides for <=768px and <=480px */
+
+/* General helpers for mobile */
+* { box-sizing: border-box; }
+img, picture { max-width: 100%; height: auto; display: block; }
+
+/* NAVBAR */
+.navbar { padding: 10px 12px; }
+.navbar-left img { max-height: 44px; margin-right: 8px; vertical-align: middle; }
+.navbar-toggler { padding: 6px; }
+
+/* HERO / BANNER */
+.banner-home,
+.banner-profile,
+.hero-section {
+  padding: 28px 18px;
+  height: auto;
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner-home .desc-main h1,
+.banner-profile .desc-main h1,
+.hero-section h1 {
+  font-size: clamp(1.6rem, 6vw, 2.6rem);
+  line-height: 1.05;
+  margin-bottom: 0.5rem;
+}
+
+/* HERO subtitle */
+.sub-judul,
+.banner-home .desc-main p {
+  font-size: clamp(.9rem, 3.2vw, 1.05rem);
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+/* Buttons in hero */
+.btn-main .btn-main-coklat,
+.btn-main .btn-main-putih {
+  padding: 8px 18px;
+  font-size: 0.95rem;
+  margin: 6px 6px;
+}
+
+/* SELECTION / kapsul tombol katalog */
+.selection-section { padding: 12px 14px; }
+.container-grid-buttons {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  padding: .4rem .6rem;
+  border-radius: 999px;
+}
+
+/* PRODUCT GRID & images */
+.card-product .card-img-top { height: 180px; object-fit: cover; }
+.card { margin-bottom: 16px; }
+
+/* TENTANG / two-column -> stack */
+.tentang-home,
+.container-tentang,
+.container-about,
+.desc-main-kunjungi {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.tentang-beranda-left,
+.tentang-beranda-right,
+.container-tentang .row > * {
+  width: 100% !important;
+  display: block;
+}
+.tentang-beranda-right { margin-top: 12px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+.foto-1, .foto-2, .foto-3, .foto-4 { width: 100%; height: 140px; object-fit: cover; border-radius: 8px; }
+
+/* FOOTER -> stack columns */
+.top-footer { display: block; padding: 18px; }
+.top-footer > div { margin-bottom: 18px; }
+
+/* BACK TO TOP */
+.back-to-top { right: 16px; bottom: 16px; }
+
+/* OFF-CANVAS collapse behavior (if using .navbar-collapse.show) */
+.navbar-collapse {
+  display: block !important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 280px;
+  transform: translateX(100%);
+  transition: transform .32s ease-in-out;
+  background: #583B37;
+  padding: 2rem 1rem;
+  z-index: 1055;
+  overflow-y: auto;
+}
+.navbar-collapse.show { transform: translateX(0); box-shadow: -10px 0 28px rgba(0,0,0,0.28); }
+.navbar-collapse.show::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(100% - 280px);
+  height: 100vh;
+  background: rgba(0,0,0,0.45);
+  z-index: 1050;
+}
+
+/* MEDIA: SMALLER PHONES <=480px */
+@media (max-width: 480px) {
+  .banner-home,
+  .banner-profile,
+  .hero-section {
+    min-height: 300px;
+    padding: 20px 14px;
+  }
+  .banner-home .desc-main h1,
+  .hero-section h1 {
+    font-size: clamp(1.4rem, 7.5vw, 2.2rem);
+  }
+  .sub-judul, .banner-home .desc-main p {
+    font-size: .92rem;
+  }
+  .container-grid-buttons { gap: 6px; padding: .3rem .4rem; }
+  .card-product .card-img-top { height: 160px; }
+  .navbar-left img { max-height: 36px; margin-right: 6px; }
+  .navbar-collapse { width: 240px; }
+  .navbar-collapse.show::before { width: calc(100% - 240px); }
+  .top-footer > div { margin-bottom: 12px; }
+}
+
+/* Accessibility / small adjustments */
+a.nav-link { padding: .45rem 0.25rem; }
