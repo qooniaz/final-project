@@ -39,7 +39,6 @@ body {
     color: #ffffff;
     box-shadow: 4px 4px 6px #000000;
     margin: 0 5px 0;
-  
 }
 
 .banner-home .btn-main .btn-main-putih {
@@ -51,12 +50,6 @@ body {
     box-shadow: 4px 4px 6px #000000;
     margin: 0 5px 0;
 }
-
-/* .banner-home .btn-main{
-    margin: 0 20px 0;
-    gap: 30px;
-    border: 20px;
-} */
 
 .tentang-home {
     background-color: #F7F3EE;
@@ -96,9 +89,7 @@ body {
     box-shadow: 4px 4px 6px gray;
 }
 
-
 /* Kunjungi section */
-
 .kunjungi-home {
     background-color: #B38877;
     height: 300px;
