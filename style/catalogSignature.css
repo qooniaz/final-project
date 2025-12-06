@@ -34,11 +34,11 @@
         }
 
         .navbar-brand {
-            gap: 4px;
+            gap: 8px;
         }
 
         .navbar {
-            padding: 10px 60px;
+            padding: 10px 15px;
             width: 100%;
             height: 81px;
         }
@@ -51,16 +51,11 @@
             color: #2264bb !important;
         }
 
-        
         /* Hero Section */
         .hero-section {
             margin-top: 70px;
             /* Offset for fixed navbar */
-            height: 350px;
-
-            margin-top: 70px;
-            /* Offset for fixed navbar */
-            height: 400px;
+            height: 600px;
             position: relative;
             background-image: url('../gambar/banner.jpg');
             background-size: cover;
@@ -83,7 +78,7 @@
         }
 
         .selection-section {
-            background-color: #E2CCB1;
+            background-color: #F2EBE9;
         }
 
         .display-4 {
@@ -264,3 +259,31 @@
             color: white;
             padding: 20px 0;
         }
+<<<<<<< HEAD
+=======
+
+        /* BackToTop Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            background-color: #D46929;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, transform 0.3s;
+            z-index: 1000;
+        }
+
+        .back-to-top:hover {
+            background-color: #e67839;
+            transform: scale(1.2);
+        }
+>>>>>>> 6bb16eb6ddef8d5b7561171a418fa7b2e3384cf4
