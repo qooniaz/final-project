@@ -51,6 +51,11 @@
             color: #2264bb !important;
         }
 
+        /* container */
+        .container {
+            max-width: fit-content;
+        }
+
         /* Hero Section */
         .hero-section {
             margin-top: 70px;
@@ -69,7 +74,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             width: 100%;
-            height: 600px;
+            height: 800px;
             flex-direction: column;
             gap: 40px;
             padding: 30px 100px;
