@@ -165,3 +165,192 @@ body {
     padding: 10px 40px 5px;
     color: #553A2A;
 }
+
+
+/* ============================
+   RESPONSIVE — GENERAL FIX
+   ============================ */
+.visimisi-profile .visimisi-card,
+.produk-profile .fotoroti-container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+/* ============================
+   XXL SCREEN (max 1400px)
+   ============================ */
+@media (max-width: 1400px) {
+  .banner-profile .desc-main-banner h1 {
+    font-size: 2.7rem;
+  }
+}
+
+
+
+/* ============================
+   LARGE LAPTOP (max 1200px)
+   ============================ */
+@media (max-width: 1200px) {
+  .about-profile p {
+    padding: 10px 40px;
+  }
+
+  .visi-main,
+  .misi-main {
+    width: 280px;
+  }
+
+  .produk-profile .fotoroti-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+
+/* ============================
+   LAPTOP KECIL (max 992px)
+   ============================ */
+@media (max-width: 992px) {
+
+  /* About */
+  .about-profile {
+    height: auto;
+    padding: 30px 40px;
+  }
+
+  /* Visi Misi */
+  .visimisi-profile .visimisi-card {
+    gap: 20px;
+    padding: 20px 10px;
+  }
+
+  .visi-main,
+  .misi-main {
+    width: 250px;
+    height: auto;
+  }
+
+  /* Produk */
+  .produk-profile {
+    height: auto;
+  }
+
+  .produk-profile .fotoroti-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+
+/* ============================
+   TABLET (max 768px)
+   ============================ */
+@media (max-width: 768px) {
+
+  /* Banner */
+  .banner-profile {
+    height: 300px;
+  }
+  .banner-profile .desc-main-banner h1 {
+    font-size: 2.2rem;
+  }
+
+  /* About */
+  .about-profile {
+    padding: 20px 20px;
+  }
+  .about-profile p {
+    padding: 10px 20px;
+  }
+
+  /* Visi Misi → jadi 1 kolom */
+  .visimisi-profile .visimisi-card {
+    flex-direction: column;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .visi-main,
+  .misi-main {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Produk 2 kolom */
+  .produk-profile .fotoroti-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+
+/* ============================
+   HP BESAR (max 576px)
+   ============================ */
+@media (max-width: 576px) {
+
+  .banner-profile {
+    height: 260px;
+  }
+
+  .about-profile {
+    padding: 15px;
+  }
+
+  .about-profile p {
+    padding: 5px 10px;
+  }
+
+  /* Produk → 1 kolom */
+  .produk-profile .fotoroti-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+/* ============================
+   HP KECIL (max 480px)
+   ============================ */
+@media (max-width: 480px) {
+
+  /* Banner */
+  .banner-profile {
+    height: 220px;
+  }
+  .banner-profile .desc-main-banner h1 {
+    font-size: 1.8rem;
+  }
+
+  /* About */
+  .about-profile {
+    padding: 10px;
+  }
+
+  .about-profile p {
+    font-size: 0.9rem;
+  }
+
+  /* Visi Misi */
+  .visimisi-profile {
+    padding: 20px 10px;
+  }
+
+  .visi-main h3,
+  .misi-main h3 {
+    font-size: 1.4rem;
+    padding: 20px 0;
+  }
+
+  /* Produk */
+  .produk-profile {
+    padding: 20px 10px;
+  }
+
+  .produk-profile .fotoroti-aneka1 p {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+  }
+}
