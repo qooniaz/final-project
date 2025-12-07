@@ -16,6 +16,12 @@ body {
     background: #f7f3ef;
 }
 
+.navbar-toggler {
+    z-index: 2000 !important;
+    position: relative;
+}
+
+
 
 /* ================== BANNER ================== */
 
