@@ -298,3 +298,33 @@
                 justify-items: center;
             }
         }
+
+
+        @media (max-width: 992px) {
+            .hero-overlay {
+                padding: 20px;
+                height: 400px;
+            }
+
+            .hero-section {
+                height: 400px;
+            }
+
+            .navbar {
+                padding: 10px 20px;
+                height: auto;
+                backdrop-filter: none;
+
+            }
+        
+           /* Tombol Katalog Responsif */
+            .container-grid-buttons {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+                gap: 10px;
+                width: 100%;
+                border: 2px dashed;
+                padding: 10px;
+                justify-items: center;
+            }
+        }
