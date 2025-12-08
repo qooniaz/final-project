@@ -4,6 +4,13 @@
             margin: 0;
         }
 
+        /* container */
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            /* border: 1px solid red; */
+        }
+
         /* Warna Navbar*/
         .bg-brand-dark {
             background-color: #583B37 !important;
@@ -230,4 +237,65 @@
             background-color: #6E4946;
             color: white;
             padding: 20px 0;
+        }
+
+
+         /* Responsif Tablet*/
+        @media (max-width: 768px) {
+            .hero-overlay {
+                padding: 20px;
+                height: 400px;
+            }
+
+            .hero-section {
+                height: 400px;
+            }
+
+            .navbar {
+                padding: 10px 20px;
+                height: auto;
+                backdrop-filter: none;
+
+            }
+        
+           /* Tombol Katalog Responsif */
+            .container-grid-buttons {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+                gap: 10px;
+                width: 100%;
+                border: 2px dashed;
+                padding: 10px;
+                justify-items: center;
+            }
+        }
+
+
+        /* Responsif mobile large */
+        @media (max-width: 480px) {
+            .hero-overlay {
+                padding: 15px;
+                height: 300px;
+            }
+
+            .hero-section {
+                height: 300px;
+            }
+
+            .navbar {
+                padding: 10px 15px;
+                height: auto;
+                backdrop-filter: none;
+            }
+
+            /* Tombol Katalog Responsif 2 */
+            .container-grid-buttons {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+                gap: 8px;
+                width: 100%;
+                border: 2px dashed;
+                padding: 8px;
+                justify-items: center;
+            }
         }

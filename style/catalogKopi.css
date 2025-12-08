@@ -4,6 +4,15 @@
             margin: 0;
         }
 
+        /* Container */
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            /* border: 1px solid red; */
+        }
+
+
+
         /* Warna Navbar*/
         .bg-brand-dark {
             background-color: #583B37 !important;

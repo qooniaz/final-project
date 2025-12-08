@@ -4,6 +4,16 @@
             margin: 0;
         }
 
+
+        /* Container */
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            /* border: 1px solid red; */
+        }
+
+
+
         /* Warna Navbar*/
         .bg-brand-dark {
             background-color: #583B37 !important;
@@ -228,6 +238,7 @@
         }
 
 
+
         /* Responsif Tablet*/
         @media (max-width: 768px) {
             .hero-overlay {
@@ -259,7 +270,7 @@
         }
 
 
-        /* Responsif 2 */
+        /* Responsif mobile large */
         @media (max-width: 480px) {
             .hero-overlay {
                 padding: 15px;
